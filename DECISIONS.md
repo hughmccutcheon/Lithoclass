@@ -13,7 +13,7 @@ entries.
 Python 3.14.0 (system). *Rationale: CLAUDE.md's documented fallback; keeps
 fresh-clone reproducibility via pinned versions.*
 
-**Status: pending Hugh's sign-off**
+**Status: approved by Hugh (Phase 0 gate, 2026-07-09)**
 
 ## 2026-07-08 — GSV (Victoria) statewide extract evaluated and rejected
 
@@ -39,4 +39,27 @@ lithology logs. Licence: CC-BY 4.0 (`Disclaimer and CCBY.txt` in data/raw).
 *Rationale: primary source per brief; statewide variant only affects file
 size, not content. Dataset locked — no further shopping.*
 
-**Status: pending Hugh's sign-off (workability gate follows the profile)**
+**Status: approved by Hugh (Phase 0 gate, 2026-07-09)**
+
+## 2026-07-09 — Phase 0 gate passed; label source = sample-level lithology
+
+Hugh reviewed `reports/data_profile.md` and confirmed the dataset workable.
+Target labels come from the sample-level `LITHO_CODE`/`LITHOLOGY_NAME` in
+`sarig_rs_chem_exp.csv` (81,697 drillhole-linked labelled samples), not from
+an interval-log join. *Rationale (Hugh): sample-scale label is more accurate;
+avoids interval smearing. Claude to verify labelled-hole count ≥30 in
+Phase 1.*
+
+**Status: approved by Hugh (2026-07-09)**
+
+## 2026-07-09 — Class-scheme direction for the Phase 1 lookup table
+
+Hugh proposed categorising as overburden / interburden / basement. Three
+classes conflicts with CLAUDE.md rule 4 (5–8 groups), so the agreed approach:
+the lookup table carries Hugh's three-way **tier** column *plus* a final
+class column with 5–8 groups (cover collapsed, basement split
+lithologically). Claude drafts, Hugh edits and approves in Phase 1.
+*Rationale: keeps the practical tiering without gutting the confusion-matrix
+and interpretation artefacts.*
+
+**Status: direction agreed; lookup table itself pending Hugh's approval**
