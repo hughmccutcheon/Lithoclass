@@ -1,0 +1,22 @@
+# raw data is never committed
+data/raw/*
+!data/raw/.gitkeep
+
+# processed data regenerates from raw
+data/processed/*
+!data/processed/.gitkeep
+
+# environment
+.venv/
+
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# tooling caches
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
