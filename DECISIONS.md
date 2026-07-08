@@ -27,3 +27,16 @@ the documented primary source (SARIG per-map-sheet packages). Files removed
 from `data/raw/`.*
 
 **Status: approved by Hugh (dataset call, 2026-07-08)**
+
+## 2026-07-08 — Dataset selected: SARIG Data Package statewide export
+
+Hugh downloaded the statewide SARIG Data Package (GSSA / SA Geodata CSV
+export from dem-sdp.s3-ap-southeast-2.amazonaws.com; the per-map-sheet route
+was too hard to locate). Key tables: `sarig_rs_chem_exp.csv` (long-format
+geochemistry, 22 GB), `sarig_dh_litho_exp.csv` (interval lithology logs),
+`sarig_dh_details_exp.csv`. 47,349 holes flagged with both geochemistry and
+lithology logs. Licence: CC-BY 4.0 (`Disclaimer and CCBY.txt` in data/raw).
+*Rationale: primary source per brief; statewide variant only affects file
+size, not content. Dataset locked — no further shopping.*
+
+**Status: pending Hugh's sign-off (workability gate follows the profile)**
