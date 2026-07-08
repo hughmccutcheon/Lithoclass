@@ -1,0 +1,256 @@
+litho_code,lithology_name,n_samples,tier,lith_class,keep,review_flag
+SDST,Sandstone,6756,basement,Clastic sediment,Y,
+GNSS,Gneiss,5231,basement,Metamorphic,Y,
+SLST,Siltstone,5124,basement,Clastic sediment,Y,
+CLYU,Clay (Undiff. Origin),5069,overburden,Transported cover,Y,Y
+SAND,Sand,4786,overburden,Transported cover,Y,
+GRNT,Granite,4630,basement,Felsic-intermediate igneous,Y,
+SHLE,Shale,4174,basement,Clastic sediment,Y,
+CLYR,Clay (Regolith),3794,overburden,Transported cover,Y,Y
+SCHT,Schist,3546,basement,Metamorphic,Y,
+SAPT,Saprolite,2907,interburden,In-situ regolith,Y,
+QTZT,Quartzite,2288,basement,Metamorphic,Y,Y
+CLYS,Clay (Sedimentary),2220,basement,Clastic sediment,Y,Y
+MSLT,Metasiltstone,1818,basement,Metamorphic,Y,
+MPOR,Metaporphyry,1729,basement,Felsic-intermediate igneous,Y,Y
+MSST,Metasandstone,1603,basement,Metamorphic,Y,
+DLOM,Dolomite Rock,1349,basement,Carbonate-chemical sediment,Y,
+LMST,Limestone,1253,basement,Carbonate-chemical sediment,Y,
+MSED,Metasediment,1020,basement,Metamorphic,Y,
+GBRO,Gabbro,983,basement,Mafic-ultramafic igneous,Y,
+CGLM,Conglomerate,878,basement,Clastic sediment,Y,Y
+PORP,Porphyry,862,basement,Felsic-intermediate igneous,Y,Y
+MSOM,Metasomatite,853,basement,REVIEW: altered-mineralised,N,Y
+AMPH,Amphibolite,631,basement,Mafic-ultramafic igneous,Y,Y
+BREC,Breccia (Undiff. Origin),612,basement,REVIEW: altered-mineralised,N,Y
+PXNT,Pyroxenite,579,basement,Mafic-ultramafic igneous,Y,
+FEXT,Felsic Extrusive,576,basement,Felsic-intermediate igneous,Y,
+BSLT,Basalt,573,basement,Mafic-ultramafic igneous,Y,
+GOID,Granitoid Rock,559,basement,Felsic-intermediate igneous,Y,
+MDST,Mudstone,525,basement,Clastic sediment,Y,
+DIOR,Diorite,513,basement,Felsic-intermediate igneous,Y,Y
+CAAR,Calcarenite,503,basement,Carbonate-chemical sediment,Y,
+MDIO,Metadiorite,489,basement,Felsic-intermediate igneous,Y,Y
+DOLR,Dolerite,485,basement,Mafic-ultramafic igneous,Y,
+PHYL,Phyllite,485,basement,Metamorphic,Y,
+MARL,Marl,478,basement,Carbonate-chemical sediment,Y,
+SILT,Silt,458,overburden,Transported cover,Y,Y
+RHYO,Rhyolite,390,basement,Felsic-intermediate igneous,Y,
+VOLC,Volcanics,383,basement,Felsic-intermediate igneous,Y,Y
+SOIL,Soil,377,overburden,Transported cover,Y,
+CASI,Calcsilicate Rock,360,basement,Metamorphic,Y,Y
+SILC,Silcrete,330,interburden,In-situ regolith,Y,Y
+MARB,Marble,316,basement,Carbonate-chemical sediment,Y,Y
+GPSM,Gypsum Rock,303,basement,Carbonate-chemical sediment,Y,Y
+GRVL,Gravel,274,overburden,Transported cover,Y,
+MYLN,Mylonite,268,basement,Metamorphic,Y,Y
+REGO,Regolith,265,interburden,In-situ regolith,Y,
+IMAF,Igneous Mafic,248,basement,Mafic-ultramafic igneous,Y,
+DACT,Dacite,236,basement,Felsic-intermediate igneous,Y,
+GRDI,Granodiorite,234,basement,Felsic-intermediate igneous,Y,
+MEXT,Mafic Extrusive,202,basement,Mafic-ultramafic igneous,Y,
+GRNL,Granulite,192,basement,Metamorphic,Y,
+CALC,Calcrete,192,interburden,In-situ regolith,Y,Y
+JSPT,Jaspilite,192,basement,REVIEW: iron-rich,N,Y
+CLST,Claystone,191,basement,Clastic sediment,Y,
+META,Metamorphic Rock,185,basement,Metamorphic,Y,Y
+ADML,Adamellite,170,basement,Felsic-intermediate igneous,Y,
+MFIG,Meta-Felsic Igneous Rock,160,basement,Metamorphic,Y,Y
+PELT,Pelite,159,basement,Metamorphic,Y,Y
+RHYD,Rhyodacite,158,basement,Felsic-intermediate igneous,Y,
+IRSU,Ironstone (Undiff. Origin),143,basement,REVIEW: iron-rich,N,Y
+SKRN,Skarn,140,basement,REVIEW: altered-mineralised,N,Y
+GYWK,Greywacke,135,basement,Clastic sediment,Y,Y
+XXXX,No Information,130,basement,REVIEW: other,N,Y
+PEGM,Pegmatite (No Composition),124,basement,Felsic-intermediate igneous,Y,Y
+CBSD,Chemical/Biogenic Sediment,117,basement,Clastic sediment,Y,Y
+DIMC,Diamictite,116,basement,Clastic sediment,Y,Y
+LIGN,Lignite,115,basement,REVIEW: other,N,Y
+MINT,Mafic Intrusive,115,basement,Mafic-ultramafic igneous,Y,Y
+MDOL,Metadolerite,113,basement,Metamorphic,Y,Y
+COQN,Coquina,112,basement,Carbonate-chemical sediment,Y,Y
+MBAS,Metabasalt,112,basement,Metamorphic,Y,Y
+TUFF,Tuff,107,basement,Felsic-intermediate igneous,Y,Y
+KIMB,Kimberlite,105,basement,Mafic-ultramafic igneous,Y,Y
+PRDT,Peridotite,102,basement,Mafic-ultramafic igneous,Y,Y
+TLLT,Tillite,99,basement,REVIEW: other,N,Y
+VOCL,Volcaniclastic Rock,98,basement,Felsic-intermediate igneous,Y,Y
+ALBS,Albite-Altered Rock (Sediment Precursor),97,basement,REVIEW: altered-mineralised,N,Y
+MGBR,Metagabbro,92,basement,Metamorphic,Y,Y
+PSPE,Psammopelite,92,basement,Metamorphic,Y,Y
+QFPO,Quartz Feldspar Porphyry,90,basement,Felsic-intermediate igneous,Y,Y
+FPEG,Felsic Pegmatite,83,basement,Felsic-intermediate igneous,Y,Y
+MVOL,Metavolcanic,83,basement,Metamorphic,Y,Y
+ANDS,Andesite,79,basement,Felsic-intermediate igneous,Y,Y
+MCGR,Microgranite,74,basement,Felsic-intermediate igneous,Y,Y
+MMIG,Meta-Mafic Igneous Rock,66,basement,Metamorphic,Y,Y
+FBRC,Fault Breccia,65,basement,Clastic sediment,Y,Y
+PSAM,Psammite,63,basement,Metamorphic,Y,Y
+MGRD,Metagranodiorite,63,basement,Metamorphic,Y,Y
+CHRT,Chert,63,basement,Carbonate-chemical sediment,Y,Y
+HFLS,Hornfels,62,basement,Metamorphic,Y,Y
+MIGM,Migmatite,62,basement,Metamorphic,Y,Y
+SLAT,Slate,58,basement,Metamorphic,Y,Y
+TONL,Tonalite,58,basement,Felsic-intermediate igneous,Y,Y
+MINO,Mineralised Rock/Ore,57,basement,REVIEW: altered-mineralised,N,Y
+MZGR,Monzogranite,57,basement,Felsic-intermediate igneous,Y,Y
+CAST,Calcsiltstone,57,basement,Clastic sediment,Y,Y
+FINT,Felsic Intrusive,56,basement,Felsic-intermediate igneous,Y,Y
+IGNM,Ignimbrite,56,basement,Felsic-intermediate igneous,Y,Y
+KOMT,Komatiite,53,basement,Mafic-ultramafic igneous,Y,Y
+DLAR,Dolarenite,51,basement,Clastic sediment,Y,Y
+GOSS,Gossan,51,basement,REVIEW: iron-rich,N,Y
+VEIN,Vein (Undifferentiated),50,basement,REVIEW: altered-mineralised,N,Y
+BIFM,Banded Iron Formation,50,basement,REVIEW: iron-rich,N,Y
+MQTZ,Metaquartzite,48,basement,Metamorphic,Y,Y
+NORT,Norite,47,basement,Mafic-ultramafic igneous,Y,Y
+MUD,Mud,46,basement,REVIEW: other,N,Y
+MGYW,Metagreywacke,45,basement,Metamorphic,Y,Y
+CLRD,Calcrudite,45,basement,REVIEW: other,N,Y
+MONZ,Monzonite,44,basement,Felsic-intermediate igneous,Y,Y
+SYEN,Syenite,43,basement,Felsic-intermediate igneous,Y,Y
+ANRT,Anorthosite,43,basement,REVIEW: other,N,Y
+TRCH,Trachyte,40,basement,Felsic-intermediate igneous,Y,Y
+UINT,Ultramafic Intrusive,40,basement,Mafic-ultramafic igneous,Y,Y
+FERC,Ferricrete,39,interburden,In-situ regolith,Y,Y
+SEDM,Sedimentary Rock,39,basement,Clastic sediment,Y,Y
+MTON,Metatonalite,37,basement,Metamorphic,Y,Y
+MSSI,Metasediment Siliciclastic,34,basement,Metamorphic,Y,Y
+MZDI,Monzodiorite,33,basement,Felsic-intermediate igneous,Y,Y
+MCGB,Microgabbro,33,basement,Mafic-ultramafic igneous,Y,Y
+MGRN,Metagranite,33,basement,Metamorphic,Y,Y
+OTGN,Orthogneiss,32,basement,Metamorphic,Y,Y
+LOAM,Loam,31,basement,REVIEW: other,N,Y
+IRFM,Iron Formation,30,basement,REVIEW: iron-rich,N,Y
+CALU,Calcilutite,29,basement,REVIEW: other,N,Y
+SERP,Serpentinite,29,basement,Mafic-ultramafic igneous,Y,Y
+ALLV,Alluvium,28,overburden,Transported cover,Y,Y
+MINL,Mineral Specimen,27,basement,REVIEW: other,N,Y
+ARKS,Arkose,26,basement,Clastic sediment,Y,Y
+QZDI,Quartz Diorite,25,basement,Felsic-intermediate igneous,Y,Y
+DTEX,Diatexite,25,basement,REVIEW: other,N,Y
+MMUD,Metamudstone,25,basement,Metamorphic,Y,Y
+IFEL,Igneous Felsic,24,basement,Felsic-intermediate igneous,Y,Y
+INTR,Igneous Intrusive,24,basement,REVIEW: other,N,Y
+CLLV,Colluvium,23,overburden,Transported cover,Y,Y
+IGNE,Unclassified Igneous,23,basement,REVIEW: other,N,Y
+METL,Metallic Mineralised Rock/Ore,22,basement,REVIEW: altered-mineralised,N,Y
+ALBM,Albitite (Metasomatic),21,basement,REVIEW: altered-mineralised,N,Y
+LAMP,Igneous Lamprophyric,21,basement,Mafic-ultramafic igneous,Y,Y
+LCGR,Leucogranite,21,basement,Felsic-intermediate igneous,Y,Y
+MGTM,Magnetite-Rich Rock (Metasomatic),21,basement,REVIEW: iron-rich,N,Y
+UNKN,Unknown,20,basement,REVIEW: other,N,Y
+MIIG,Meta-Intermediate Igneous Rock,19,basement,Metamorphic,Y,Y
+SYGN,Syenogranite,19,basement,Felsic-intermediate igneous,Y,Y
+APLT,Aplite,19,basement,Felsic-intermediate igneous,Y,Y
+GBNR,Gabbronorite,18,basement,Mafic-ultramafic igneous,Y,Y
+MDIA,Metadiamictite,18,basement,Metamorphic,Y,Y
+MCDI,Microdiorite,17,basement,Felsic-intermediate igneous,Y,Y
+QZSY,Quartz Syenite,15,basement,Felsic-intermediate igneous,Y,Y
+FSPO,Feldspar Porphyry,15,basement,Felsic-intermediate igneous,Y,Y
+GREI,Greisen,15,basement,REVIEW: altered-mineralised,N,Y
+LPHY,Lamprophyre,14,basement,Mafic-ultramafic igneous,Y,Y
+PAMP,Para-Amphibolite,14,basement,Metamorphic,Y,Y
+ELUV,Eluvium,12,basement,REVIEW: other,N,Y
+ARGL,Argillite,12,basement,REVIEW: other,N,Y
+GRIT,Grit,12,basement,Clastic sediment,Y,Y
+AUGN,Augen Gneiss,12,basement,Metamorphic,Y,Y
+MADL,Microadamellite,11,basement,Felsic-intermediate igneous,Y,Y
+AUBX,Autobreccia,11,basement,Clastic sediment,Y,Y
+FOSS,Fossils,11,basement,REVIEW: other,N,Y
+MMIN,Meta-Mafic Intrusive Rock,10,basement,Metamorphic,Y,Y
+MRHY,Metarhyolite,10,basement,Metamorphic,Y,Y
+TRON,Trondhjemite,10,basement,REVIEW: other,N,Y
+IRSM,Ironstone (Metasomatic),10,basement,REVIEW: iron-rich,N,Y
+CLYM,Clay (Metasomatic),10,overburden,Transported cover,Y,Y
+CBRK,Carbonate Rock,10,basement,Carbonate-chemical sediment,Y,Y
+VSND,Volcanic Sandstone (Penecontemp. With Volcanism),10,overburden,Transported cover,Y,Y
+QMTM,Quartz-Magnetite Rock (Metasomatic),8,basement,REVIEW: iron-rich,N,Y
+TBAS,Trachybasalt,8,basement,Mafic-ultramafic igneous,Y,Y
+TAND,Trachyandesite,7,basement,Felsic-intermediate igneous,Y,Y
+LATR,Laterite,7,interburden,In-situ regolith,Y,Y
+MAND,Meta-Andesite,7,basement,Metamorphic,Y,Y
+QZPO,Quartz Porphyry,7,basement,Felsic-intermediate igneous,Y,Y
+MUMI,Mafic/Ultramafic Intrusive,7,basement,Mafic-ultramafic igneous,Y,Y
+QZRM,Quartz Rock (Metasomatic),7,basement,REVIEW: altered-mineralised,N,Y
+AGLM,Agglomerate,6,basement,REVIEW: other,N,Y
+MMEX,Meta-Mafic Extrusive Rock,6,basement,Metamorphic,Y,Y
+MUIG,Meta-Ultramafic Igneous Rock,6,basement,Metamorphic,Y,Y
+LHZT,Lherzolite,6,basement,REVIEW: other,N,Y
+GNFS,Granofels,6,basement,REVIEW: other,N,Y
+EXTR,Igneous Extrusive,5,basement,REVIEW: other,N,Y
+ALSK,Alaskite,5,basement,REVIEW: other,N,Y
+GNPH,Granophyre,5,basement,REVIEW: other,N,Y
+MCGD,Microgranodiorite,5,basement,Felsic-intermediate igneous,Y,Y
+TROC,Troctolite,5,basement,REVIEW: other,N,Y
+LAPT,Lapilli Tuff,5,basement,Felsic-intermediate igneous,Y,Y
+PYBX,Pyroclastic Breccia,5,basement,Clastic sediment,Y,Y
+ASH,Ash,4,basement,REVIEW: other,N,Y
+GYPC,Gypcrete,4,basement,REVIEW: other,N,Y
+IEXT,Intermediate Extrusive,4,basement,REVIEW: other,N,Y
+MCDL,Microdolerite,4,basement,Mafic-ultramafic igneous,Y,Y
+LAVA,Lava,4,basement,Felsic-intermediate igneous,Y,Y
+MZGB,Monzogabbro,4,basement,Mafic-ultramafic igneous,Y,Y
+MDYN,Dynamic Metamorphic Rock,4,basement,Metamorphic,Y,Y
+WTUF,Welded Tuff,3,basement,Felsic-intermediate igneous,Y,Y
+HBLT,Hornblendite,3,basement,REVIEW: other,N,Y
+PHOS,Phosphorite,3,basement,REVIEW: other,N,Y
+MUIN,Meta-Ultramafic Intrusive Rock,3,basement,Metamorphic,Y,Y
+MJSP,Metajaspilite,3,basement,REVIEW: iron-rich,N,Y
+PAGN,Paragneiss,3,basement,Metamorphic,Y,Y
+IINT,Intermediate Intrusive,3,basement,REVIEW: other,N,Y
+CATA,Cataclasite,3,basement,REVIEW: other,N,Y
+DUNT,Dunite,3,basement,Mafic-ultramafic igneous,Y,Y
+QZMD,Quartz Monzodiorite,2,basement,Felsic-intermediate igneous,Y,Y
+MTUF,Metatuff,2,basement,Metamorphic,Y,Y
+WKST,Wackestone,2,basement,REVIEW: other,N,Y
+UMAF,Igneous Ultramafic,2,basement,Mafic-ultramafic igneous,Y,Y
+SBRC,Sedimentary Siliciclastic Breccia,2,basement,Clastic sediment,Y,Y
+LPRO,Lamproite,2,basement,REVIEW: other,N,Y
+MANM,Anthropogenic/Man Made Material,2,basement,REVIEW: other,N,Y
+HARZ,Harzburgite,2,basement,REVIEW: other,N,Y
+COAL,Coal,2,basement,REVIEW: other,N,Y
+BAAN,Basaltic Andesite,2,basement,Mafic-ultramafic igneous,Y,Y
+ASHT,Ash Tuff,2,basement,Felsic-intermediate igneous,Y,Y
+ALBL,Albite-Altered Rock (Clastic Sed Precursor),2,basement,REVIEW: altered-mineralised,N,Y
+CABT,Carbonatite,2,basement,REVIEW: other,N,Y
+MDAC,Metadacite,2,basement,Metamorphic,Y,Y
+MEXE,Mafic Extrusive Effusive,2,basement,Mafic-ultramafic igneous,Y,Y
+MCTO,Microtonalite,2,basement,Felsic-intermediate igneous,Y,Y
+MEGN,Melagneiss,2,basement,Metamorphic,Y,Y
+MPRD,Metaperidotite,2,basement,Metamorphic,Y,Y
+MRHD,Metarhyodacite,2,basement,Metamorphic,Y,Y
+PCST,Pitchstone,2,basement,REVIEW: other,N,Y
+MARK,Meta-Arkose,2,basement,Metamorphic,Y,Y
+MCGN,Microgneiss,1,basement,Metamorphic,Y,Y
+LATT,Latite,1,basement,REVIEW: other,N,Y
+KPHR,Keratophyre,1,basement,REVIEW: other,N,Y
+HYBR,Hydrothermal Breccia,1,basement,Clastic sediment,Y,Y
+GNST,Greenstone,1,basement,REVIEW: other,N,Y
+GRUS,Grus,1,basement,REVIEW: other,N,Y
+HALT,Halite Rock,1,basement,REVIEW: other,N,Y
+FGAB,Ferrogabbro,1,basement,Mafic-ultramafic igneous,Y,Y
+CAEH,Calcareous Earth,1,basement,REVIEW: other,N,Y
+BIOT,Biotitite,1,basement,REVIEW: other,N,Y
+BATA,Basaltic Trachyandesite,1,basement,Mafic-ultramafic igneous,Y,Y
+AFGN,Alkali Feldspar Granite,1,basement,Felsic-intermediate igneous,Y,Y
+EPDT,Epidosite,1,basement,REVIEW: other,N,Y
+EXHA,Exhalite,1,basement,REVIEW: other,N,Y
+FEXE,Felsic Extrusive Effusive,1,basement,Felsic-intermediate igneous,Y,Y
+MCSY,Microsyenite,1,basement,Felsic-intermediate igneous,Y,Y
+OPCA,Ophicalcite,1,basement,REVIEW: other,N,Y
+OAMP,Orthoamphibolite,1,basement,Metamorphic,Y,Y
+MSCB,Metasediment Chemical/Biogenic,1,basement,Metamorphic,Y,Y
+MNET,Minette,1,basement,REVIEW: other,N,Y
+PKST,Packstone,1,basement,REVIEW: other,N,Y
+PYRO,Pyroclastic,1,basement,REVIEW: other,N,Y
+QGTD,Quartz-Rich Granitoid,1,basement,Felsic-intermediate igneous,Y,Y
+QZMZ,Quartz Monzonite,1,basement,Felsic-intermediate igneous,Y,Y
+SAPK,Saprock,1,interburden,In-situ regolith,Y,Y
+QZTR,Quartz Trachyte,1,basement,Felsic-intermediate igneous,Y,Y
+QZRU,Quartz Rock (Undiff. Origin),1,basement,REVIEW: other,N,Y
+SPST,Soapstone,1,basement,REVIEW: other,N,Y
+TCTO,Tectonite,1,basement,REVIEW: other,N,Y
+TALU,Talus,1,basement,REVIEW: other,N,Y
+UEXT,Ultramafic Extrusive,1,basement,Mafic-ultramafic igneous,Y,Y
+WEHR,Wehrlite,1,basement,REVIEW: other,N,Y
