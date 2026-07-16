@@ -1,3 +1,7 @@
+# local working docs (personal planning notes, not part of the public repo)
+PROJECT_BRIEF.md
+KICKOFF_PROMPT.md
+
 # raw data is never committed
 data/raw/*
 !data/raw/.gitkeep
