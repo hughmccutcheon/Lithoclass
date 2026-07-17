@@ -149,6 +149,37 @@ below-detection values.*
 
 **Status: approved by Hugh (2026-07-17)**
 
+## 2026-07-17 — Phase 3 evaluation protocol
+
+Metrics are computed on pooled out-of-fold predictions from GroupKFold(5)
+by drillhole (macro-F1, balanced accuracy, per-class F1), with per-fold
+macro-F1 spread reported. Both trained models use
+``class_weight='balanced'`` (largest:smallest class ≈ 5:1). RF tuned over a
+small grid (n_estimators 200/500 × max_depth None/10/20) on the same
+grouped folds — a light-tuning shortcut per the brief, noted in results.md
+as a source of minor selection optimism. One shuffled KFold(5) run of the
+tuned RF exists solely to quantify the spatial-leakage gap. Seed 42
+throughout. *Rationale: pooled OOF predictions give a single honest
+confusion matrix for Phase 4; grouping by hole is the project's core
+methodological claim.*
+
+**Status: approved by Hugh (2026-07-17, delegated with logic recorded)**
+
+## 2026-07-17 — Phase 3 finding: log10 baseline edges out CLR; CLR stays primary
+
+Grouped-CV macro-F1: RF on CLR 0.448 vs RF on log10 ppm 0.478. The
+comparison baseline outperforms the compositional features by 0.030. CLR
+remains the primary feature set (rule 1: raw concentrations are modelled
+only as a labelled baseline) and the result is reported, not buried.
+*Rationale: absolute abundance carries real lithological signal here
+(cover is dilute in most traces), and CLR on a 7-element trace-dominated
+subcomposition — no Si/Al/Ca/Mg majors — normalises some of that away.
+The gap and its interpretation go to Phase 4/limitations; switching
+primary features post-hoc because the baseline won would be the kind of
+result-chasing this repo exists to avoid.*
+
+**Status: approved by Hugh (2026-07-17, delegated with logic recorded)**
+
 ## 2026-07-17 — Minimum class support rule
 
 Classes require ≥500 complete-case samples or are merged/dropped. All seven
