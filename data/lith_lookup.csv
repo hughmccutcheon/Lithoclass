@@ -1,256 +1,256 @@
-litho_code,lithology_name,n_samples,tier,lith_class,keep,review_flag
-SDST,Sandstone,6756,basement,Clastic sediment,Y,
-GNSS,Gneiss,5231,basement,Metamorphic,Y,
-SLST,Siltstone,5124,basement,Clastic sediment,Y,
-CLYU,Clay (Undiff. Origin),5069,overburden,Transported cover,Y,Y
-SAND,Sand,4786,overburden,Transported cover,Y,
-GRNT,Granite,4630,basement,Felsic-intermediate igneous,Y,
-SHLE,Shale,4174,basement,Clastic sediment,Y,
-CLYR,Clay (Regolith),3794,overburden,Transported cover,Y,Y
-SCHT,Schist,3546,basement,Metamorphic,Y,
-SAPT,Saprolite,2907,interburden,In-situ regolith,Y,
-QTZT,Quartzite,2288,basement,Metamorphic,Y,Y
-CLYS,Clay (Sedimentary),2220,basement,Clastic sediment,Y,Y
-MSLT,Metasiltstone,1818,basement,Metamorphic,Y,
-MPOR,Metaporphyry,1729,basement,Felsic-intermediate igneous,Y,Y
-MSST,Metasandstone,1603,basement,Metamorphic,Y,
-DLOM,Dolomite Rock,1349,basement,Carbonate-chemical sediment,Y,
-LMST,Limestone,1253,basement,Carbonate-chemical sediment,Y,
-MSED,Metasediment,1020,basement,Metamorphic,Y,
-GBRO,Gabbro,983,basement,Mafic-ultramafic igneous,Y,
-CGLM,Conglomerate,878,basement,Clastic sediment,Y,Y
-PORP,Porphyry,862,basement,Felsic-intermediate igneous,Y,Y
-MSOM,Metasomatite,853,basement,REVIEW: altered-mineralised,N,Y
-AMPH,Amphibolite,631,basement,Mafic-ultramafic igneous,Y,Y
-BREC,Breccia (Undiff. Origin),612,basement,REVIEW: altered-mineralised,N,Y
-PXNT,Pyroxenite,579,basement,Mafic-ultramafic igneous,Y,
-FEXT,Felsic Extrusive,576,basement,Felsic-intermediate igneous,Y,
-BSLT,Basalt,573,basement,Mafic-ultramafic igneous,Y,
-GOID,Granitoid Rock,559,basement,Felsic-intermediate igneous,Y,
-MDST,Mudstone,525,basement,Clastic sediment,Y,
-DIOR,Diorite,513,basement,Felsic-intermediate igneous,Y,Y
-CAAR,Calcarenite,503,basement,Carbonate-chemical sediment,Y,
-MDIO,Metadiorite,489,basement,Felsic-intermediate igneous,Y,Y
-DOLR,Dolerite,485,basement,Mafic-ultramafic igneous,Y,
-PHYL,Phyllite,485,basement,Metamorphic,Y,
-MARL,Marl,478,basement,Carbonate-chemical sediment,Y,
-SILT,Silt,458,overburden,Transported cover,Y,Y
-RHYO,Rhyolite,390,basement,Felsic-intermediate igneous,Y,
-VOLC,Volcanics,383,basement,Felsic-intermediate igneous,Y,Y
-SOIL,Soil,377,overburden,Transported cover,Y,
-CASI,Calcsilicate Rock,360,basement,Metamorphic,Y,Y
-SILC,Silcrete,330,interburden,In-situ regolith,Y,Y
-MARB,Marble,316,basement,Carbonate-chemical sediment,Y,Y
-GPSM,Gypsum Rock,303,basement,Carbonate-chemical sediment,Y,Y
-GRVL,Gravel,274,overburden,Transported cover,Y,
-MYLN,Mylonite,268,basement,Metamorphic,Y,Y
-REGO,Regolith,265,interburden,In-situ regolith,Y,
-IMAF,Igneous Mafic,248,basement,Mafic-ultramafic igneous,Y,
-DACT,Dacite,236,basement,Felsic-intermediate igneous,Y,
-GRDI,Granodiorite,234,basement,Felsic-intermediate igneous,Y,
-MEXT,Mafic Extrusive,202,basement,Mafic-ultramafic igneous,Y,
-GRNL,Granulite,192,basement,Metamorphic,Y,
-CALC,Calcrete,192,interburden,In-situ regolith,Y,Y
-JSPT,Jaspilite,192,basement,REVIEW: iron-rich,N,Y
-CLST,Claystone,191,basement,Clastic sediment,Y,
-META,Metamorphic Rock,185,basement,Metamorphic,Y,Y
-ADML,Adamellite,170,basement,Felsic-intermediate igneous,Y,
-MFIG,Meta-Felsic Igneous Rock,160,basement,Metamorphic,Y,Y
-PELT,Pelite,159,basement,Metamorphic,Y,Y
-RHYD,Rhyodacite,158,basement,Felsic-intermediate igneous,Y,
-IRSU,Ironstone (Undiff. Origin),143,basement,REVIEW: iron-rich,N,Y
-SKRN,Skarn,140,basement,REVIEW: altered-mineralised,N,Y
-GYWK,Greywacke,135,basement,Clastic sediment,Y,Y
-XXXX,No Information,130,basement,REVIEW: other,N,Y
-PEGM,Pegmatite (No Composition),124,basement,Felsic-intermediate igneous,Y,Y
-CBSD,Chemical/Biogenic Sediment,117,basement,Clastic sediment,Y,Y
-DIMC,Diamictite,116,basement,Clastic sediment,Y,Y
-LIGN,Lignite,115,basement,REVIEW: other,N,Y
-MINT,Mafic Intrusive,115,basement,Mafic-ultramafic igneous,Y,Y
-MDOL,Metadolerite,113,basement,Metamorphic,Y,Y
-COQN,Coquina,112,basement,Carbonate-chemical sediment,Y,Y
-MBAS,Metabasalt,112,basement,Metamorphic,Y,Y
-TUFF,Tuff,107,basement,Felsic-intermediate igneous,Y,Y
-KIMB,Kimberlite,105,basement,Mafic-ultramafic igneous,Y,Y
-PRDT,Peridotite,102,basement,Mafic-ultramafic igneous,Y,Y
-TLLT,Tillite,99,basement,REVIEW: other,N,Y
-VOCL,Volcaniclastic Rock,98,basement,Felsic-intermediate igneous,Y,Y
-ALBS,Albite-Altered Rock (Sediment Precursor),97,basement,REVIEW: altered-mineralised,N,Y
-MGBR,Metagabbro,92,basement,Metamorphic,Y,Y
-PSPE,Psammopelite,92,basement,Metamorphic,Y,Y
-QFPO,Quartz Feldspar Porphyry,90,basement,Felsic-intermediate igneous,Y,Y
-FPEG,Felsic Pegmatite,83,basement,Felsic-intermediate igneous,Y,Y
-MVOL,Metavolcanic,83,basement,Metamorphic,Y,Y
-ANDS,Andesite,79,basement,Felsic-intermediate igneous,Y,Y
-MCGR,Microgranite,74,basement,Felsic-intermediate igneous,Y,Y
-MMIG,Meta-Mafic Igneous Rock,66,basement,Metamorphic,Y,Y
-FBRC,Fault Breccia,65,basement,Clastic sediment,Y,Y
-PSAM,Psammite,63,basement,Metamorphic,Y,Y
-MGRD,Metagranodiorite,63,basement,Metamorphic,Y,Y
-CHRT,Chert,63,basement,Carbonate-chemical sediment,Y,Y
-HFLS,Hornfels,62,basement,Metamorphic,Y,Y
-MIGM,Migmatite,62,basement,Metamorphic,Y,Y
-SLAT,Slate,58,basement,Metamorphic,Y,Y
-TONL,Tonalite,58,basement,Felsic-intermediate igneous,Y,Y
-MINO,Mineralised Rock/Ore,57,basement,REVIEW: altered-mineralised,N,Y
-MZGR,Monzogranite,57,basement,Felsic-intermediate igneous,Y,Y
-CAST,Calcsiltstone,57,basement,Clastic sediment,Y,Y
-FINT,Felsic Intrusive,56,basement,Felsic-intermediate igneous,Y,Y
-IGNM,Ignimbrite,56,basement,Felsic-intermediate igneous,Y,Y
-KOMT,Komatiite,53,basement,Mafic-ultramafic igneous,Y,Y
-DLAR,Dolarenite,51,basement,Clastic sediment,Y,Y
-GOSS,Gossan,51,basement,REVIEW: iron-rich,N,Y
-VEIN,Vein (Undifferentiated),50,basement,REVIEW: altered-mineralised,N,Y
-BIFM,Banded Iron Formation,50,basement,REVIEW: iron-rich,N,Y
-MQTZ,Metaquartzite,48,basement,Metamorphic,Y,Y
-NORT,Norite,47,basement,Mafic-ultramafic igneous,Y,Y
-MUD,Mud,46,basement,REVIEW: other,N,Y
-MGYW,Metagreywacke,45,basement,Metamorphic,Y,Y
-CLRD,Calcrudite,45,basement,REVIEW: other,N,Y
-MONZ,Monzonite,44,basement,Felsic-intermediate igneous,Y,Y
-SYEN,Syenite,43,basement,Felsic-intermediate igneous,Y,Y
-ANRT,Anorthosite,43,basement,REVIEW: other,N,Y
-TRCH,Trachyte,40,basement,Felsic-intermediate igneous,Y,Y
-UINT,Ultramafic Intrusive,40,basement,Mafic-ultramafic igneous,Y,Y
-FERC,Ferricrete,39,interburden,In-situ regolith,Y,Y
-SEDM,Sedimentary Rock,39,basement,Clastic sediment,Y,Y
-MTON,Metatonalite,37,basement,Metamorphic,Y,Y
-MSSI,Metasediment Siliciclastic,34,basement,Metamorphic,Y,Y
-MZDI,Monzodiorite,33,basement,Felsic-intermediate igneous,Y,Y
-MCGB,Microgabbro,33,basement,Mafic-ultramafic igneous,Y,Y
-MGRN,Metagranite,33,basement,Metamorphic,Y,Y
-OTGN,Orthogneiss,32,basement,Metamorphic,Y,Y
-LOAM,Loam,31,basement,REVIEW: other,N,Y
-IRFM,Iron Formation,30,basement,REVIEW: iron-rich,N,Y
-CALU,Calcilutite,29,basement,REVIEW: other,N,Y
-SERP,Serpentinite,29,basement,Mafic-ultramafic igneous,Y,Y
-ALLV,Alluvium,28,overburden,Transported cover,Y,Y
-MINL,Mineral Specimen,27,basement,REVIEW: other,N,Y
-ARKS,Arkose,26,basement,Clastic sediment,Y,Y
-QZDI,Quartz Diorite,25,basement,Felsic-intermediate igneous,Y,Y
-DTEX,Diatexite,25,basement,REVIEW: other,N,Y
-MMUD,Metamudstone,25,basement,Metamorphic,Y,Y
-IFEL,Igneous Felsic,24,basement,Felsic-intermediate igneous,Y,Y
-INTR,Igneous Intrusive,24,basement,REVIEW: other,N,Y
-CLLV,Colluvium,23,overburden,Transported cover,Y,Y
-IGNE,Unclassified Igneous,23,basement,REVIEW: other,N,Y
-METL,Metallic Mineralised Rock/Ore,22,basement,REVIEW: altered-mineralised,N,Y
-ALBM,Albitite (Metasomatic),21,basement,REVIEW: altered-mineralised,N,Y
-LAMP,Igneous Lamprophyric,21,basement,Mafic-ultramafic igneous,Y,Y
-LCGR,Leucogranite,21,basement,Felsic-intermediate igneous,Y,Y
-MGTM,Magnetite-Rich Rock (Metasomatic),21,basement,REVIEW: iron-rich,N,Y
-UNKN,Unknown,20,basement,REVIEW: other,N,Y
-MIIG,Meta-Intermediate Igneous Rock,19,basement,Metamorphic,Y,Y
-SYGN,Syenogranite,19,basement,Felsic-intermediate igneous,Y,Y
-APLT,Aplite,19,basement,Felsic-intermediate igneous,Y,Y
-GBNR,Gabbronorite,18,basement,Mafic-ultramafic igneous,Y,Y
-MDIA,Metadiamictite,18,basement,Metamorphic,Y,Y
-MCDI,Microdiorite,17,basement,Felsic-intermediate igneous,Y,Y
-QZSY,Quartz Syenite,15,basement,Felsic-intermediate igneous,Y,Y
-FSPO,Feldspar Porphyry,15,basement,Felsic-intermediate igneous,Y,Y
-GREI,Greisen,15,basement,REVIEW: altered-mineralised,N,Y
-LPHY,Lamprophyre,14,basement,Mafic-ultramafic igneous,Y,Y
-PAMP,Para-Amphibolite,14,basement,Metamorphic,Y,Y
-ELUV,Eluvium,12,basement,REVIEW: other,N,Y
-ARGL,Argillite,12,basement,REVIEW: other,N,Y
-GRIT,Grit,12,basement,Clastic sediment,Y,Y
-AUGN,Augen Gneiss,12,basement,Metamorphic,Y,Y
-MADL,Microadamellite,11,basement,Felsic-intermediate igneous,Y,Y
-AUBX,Autobreccia,11,basement,Clastic sediment,Y,Y
-FOSS,Fossils,11,basement,REVIEW: other,N,Y
-MMIN,Meta-Mafic Intrusive Rock,10,basement,Metamorphic,Y,Y
-MRHY,Metarhyolite,10,basement,Metamorphic,Y,Y
-TRON,Trondhjemite,10,basement,REVIEW: other,N,Y
-IRSM,Ironstone (Metasomatic),10,basement,REVIEW: iron-rich,N,Y
-CLYM,Clay (Metasomatic),10,overburden,Transported cover,Y,Y
-CBRK,Carbonate Rock,10,basement,Carbonate-chemical sediment,Y,Y
-VSND,Volcanic Sandstone (Penecontemp. With Volcanism),10,overburden,Transported cover,Y,Y
-QMTM,Quartz-Magnetite Rock (Metasomatic),8,basement,REVIEW: iron-rich,N,Y
-TBAS,Trachybasalt,8,basement,Mafic-ultramafic igneous,Y,Y
-TAND,Trachyandesite,7,basement,Felsic-intermediate igneous,Y,Y
-LATR,Laterite,7,interburden,In-situ regolith,Y,Y
-MAND,Meta-Andesite,7,basement,Metamorphic,Y,Y
-QZPO,Quartz Porphyry,7,basement,Felsic-intermediate igneous,Y,Y
-MUMI,Mafic/Ultramafic Intrusive,7,basement,Mafic-ultramafic igneous,Y,Y
-QZRM,Quartz Rock (Metasomatic),7,basement,REVIEW: altered-mineralised,N,Y
-AGLM,Agglomerate,6,basement,REVIEW: other,N,Y
-MMEX,Meta-Mafic Extrusive Rock,6,basement,Metamorphic,Y,Y
-MUIG,Meta-Ultramafic Igneous Rock,6,basement,Metamorphic,Y,Y
-LHZT,Lherzolite,6,basement,REVIEW: other,N,Y
-GNFS,Granofels,6,basement,REVIEW: other,N,Y
-EXTR,Igneous Extrusive,5,basement,REVIEW: other,N,Y
-ALSK,Alaskite,5,basement,REVIEW: other,N,Y
-GNPH,Granophyre,5,basement,REVIEW: other,N,Y
-MCGD,Microgranodiorite,5,basement,Felsic-intermediate igneous,Y,Y
-TROC,Troctolite,5,basement,REVIEW: other,N,Y
-LAPT,Lapilli Tuff,5,basement,Felsic-intermediate igneous,Y,Y
-PYBX,Pyroclastic Breccia,5,basement,Clastic sediment,Y,Y
-ASH,Ash,4,basement,REVIEW: other,N,Y
-GYPC,Gypcrete,4,basement,REVIEW: other,N,Y
-IEXT,Intermediate Extrusive,4,basement,REVIEW: other,N,Y
-MCDL,Microdolerite,4,basement,Mafic-ultramafic igneous,Y,Y
-LAVA,Lava,4,basement,Felsic-intermediate igneous,Y,Y
-MZGB,Monzogabbro,4,basement,Mafic-ultramafic igneous,Y,Y
-MDYN,Dynamic Metamorphic Rock,4,basement,Metamorphic,Y,Y
-WTUF,Welded Tuff,3,basement,Felsic-intermediate igneous,Y,Y
-HBLT,Hornblendite,3,basement,REVIEW: other,N,Y
-PHOS,Phosphorite,3,basement,REVIEW: other,N,Y
-MUIN,Meta-Ultramafic Intrusive Rock,3,basement,Metamorphic,Y,Y
-MJSP,Metajaspilite,3,basement,REVIEW: iron-rich,N,Y
-PAGN,Paragneiss,3,basement,Metamorphic,Y,Y
-IINT,Intermediate Intrusive,3,basement,REVIEW: other,N,Y
-CATA,Cataclasite,3,basement,REVIEW: other,N,Y
-DUNT,Dunite,3,basement,Mafic-ultramafic igneous,Y,Y
-QZMD,Quartz Monzodiorite,2,basement,Felsic-intermediate igneous,Y,Y
-MTUF,Metatuff,2,basement,Metamorphic,Y,Y
-WKST,Wackestone,2,basement,REVIEW: other,N,Y
-UMAF,Igneous Ultramafic,2,basement,Mafic-ultramafic igneous,Y,Y
-SBRC,Sedimentary Siliciclastic Breccia,2,basement,Clastic sediment,Y,Y
-LPRO,Lamproite,2,basement,REVIEW: other,N,Y
-MANM,Anthropogenic/Man Made Material,2,basement,REVIEW: other,N,Y
-HARZ,Harzburgite,2,basement,REVIEW: other,N,Y
-COAL,Coal,2,basement,REVIEW: other,N,Y
-BAAN,Basaltic Andesite,2,basement,Mafic-ultramafic igneous,Y,Y
-ASHT,Ash Tuff,2,basement,Felsic-intermediate igneous,Y,Y
-ALBL,Albite-Altered Rock (Clastic Sed Precursor),2,basement,REVIEW: altered-mineralised,N,Y
-CABT,Carbonatite,2,basement,REVIEW: other,N,Y
-MDAC,Metadacite,2,basement,Metamorphic,Y,Y
-MEXE,Mafic Extrusive Effusive,2,basement,Mafic-ultramafic igneous,Y,Y
-MCTO,Microtonalite,2,basement,Felsic-intermediate igneous,Y,Y
-MEGN,Melagneiss,2,basement,Metamorphic,Y,Y
-MPRD,Metaperidotite,2,basement,Metamorphic,Y,Y
-MRHD,Metarhyodacite,2,basement,Metamorphic,Y,Y
-PCST,Pitchstone,2,basement,REVIEW: other,N,Y
-MARK,Meta-Arkose,2,basement,Metamorphic,Y,Y
-MCGN,Microgneiss,1,basement,Metamorphic,Y,Y
-LATT,Latite,1,basement,REVIEW: other,N,Y
-KPHR,Keratophyre,1,basement,REVIEW: other,N,Y
-HYBR,Hydrothermal Breccia,1,basement,Clastic sediment,Y,Y
-GNST,Greenstone,1,basement,REVIEW: other,N,Y
-GRUS,Grus,1,basement,REVIEW: other,N,Y
-HALT,Halite Rock,1,basement,REVIEW: other,N,Y
-FGAB,Ferrogabbro,1,basement,Mafic-ultramafic igneous,Y,Y
-CAEH,Calcareous Earth,1,basement,REVIEW: other,N,Y
-BIOT,Biotitite,1,basement,REVIEW: other,N,Y
-BATA,Basaltic Trachyandesite,1,basement,Mafic-ultramafic igneous,Y,Y
-AFGN,Alkali Feldspar Granite,1,basement,Felsic-intermediate igneous,Y,Y
-EPDT,Epidosite,1,basement,REVIEW: other,N,Y
-EXHA,Exhalite,1,basement,REVIEW: other,N,Y
-FEXE,Felsic Extrusive Effusive,1,basement,Felsic-intermediate igneous,Y,Y
-MCSY,Microsyenite,1,basement,Felsic-intermediate igneous,Y,Y
-OPCA,Ophicalcite,1,basement,REVIEW: other,N,Y
-OAMP,Orthoamphibolite,1,basement,Metamorphic,Y,Y
-MSCB,Metasediment Chemical/Biogenic,1,basement,Metamorphic,Y,Y
-MNET,Minette,1,basement,REVIEW: other,N,Y
-PKST,Packstone,1,basement,REVIEW: other,N,Y
-PYRO,Pyroclastic,1,basement,REVIEW: other,N,Y
-QGTD,Quartz-Rich Granitoid,1,basement,Felsic-intermediate igneous,Y,Y
-QZMZ,Quartz Monzonite,1,basement,Felsic-intermediate igneous,Y,Y
-SAPK,Saprock,1,interburden,In-situ regolith,Y,Y
-QZTR,Quartz Trachyte,1,basement,Felsic-intermediate igneous,Y,Y
-QZRU,Quartz Rock (Undiff. Origin),1,basement,REVIEW: other,N,Y
-SPST,Soapstone,1,basement,REVIEW: other,N,Y
-TCTO,Tectonite,1,basement,REVIEW: other,N,Y
-TALU,Talus,1,basement,REVIEW: other,N,Y
-UEXT,Ultramafic Extrusive,1,basement,Mafic-ultramafic igneous,Y,Y
-WEHR,Wehrlite,1,basement,REVIEW: other,N,Y
+litho_code,lithology_name,n_samples,rock_group,tier,lith_class,keep,note
+SDST,Sandstone,6756,Sediment Siliciclastic Arenite,basement,Clastic sediment,Y,SARIG siliciclastic sediment [ROCK_GROUP: Sediment Siliciclastic Arenite]
+GNSS,Gneiss,5231,Metamorphic General,basement,Metamorphic,Y,SARIG metamorphic [ROCK_GROUP: Metamorphic General]
+SLST,Siltstone,5124,Sediment Siliciclastic Lutite,basement,Clastic sediment,Y,SARIG siliciclastic sediment [ROCK_GROUP: Sediment Siliciclastic Lutite]
+CLYU,Clay (Undiff. Origin),5069,General/Miscellaneous,overburden,Transported cover,Y,undiff clay in SA drillholes is overwhelmingly Cenozoic cover
+SAND,Sand,4786,Sediment Siliciclastic Arenite,overburden,Transported cover,Y,unconsolidated name within siliciclastic group
+GRNT,Granite,4630,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+SHLE,Shale,4174,Sediment Siliciclastic Lutite,basement,Clastic sediment,Y,SARIG siliciclastic sediment [ROCK_GROUP: Sediment Siliciclastic Lutite]
+CLYR,Clay (Regolith),3794,Regolith,interburden,In-situ regolith,Y,regolith clay = in-situ weathering product
+SCHT,Schist,3546,Metamorphic General,basement,Metamorphic,Y,SARIG metamorphic [ROCK_GROUP: Metamorphic General]
+SAPT,Saprolite,2907,Saprolith,interburden,In-situ regolith,Y,SARIG saprolith = in-situ weathering [ROCK_GROUP: Saprolith]
+QTZT,Quartzite,2288,Metasediment,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment]
+CLYS,Clay (Sedimentary),2220,Sediment Siliciclastic Lutite,overburden,Transported cover,Y,unconsolidated name within siliciclastic group
+MSLT,Metasiltstone,1818,Metasediment Siliciclastic,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment Siliciclastic]
+MPOR,Metaporphyry,1729,Meta-Igneous,basement,Felsic-intermediate igneous,Y,felsic-intermediate protolith chemistry survives [ROCK_GROUP: Meta-Igneous]
+MSST,Metasandstone,1603,Metasediment Siliciclastic,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment Siliciclastic]
+DLOM,Dolomite Rock,1349,Sediment Chemical/Biogenic Carbonate,basement,Carbonate-chemical sediment,Y,SARIG chemical/biogenic sediment [ROCK_GROUP: Sediment Chemical/Biogenic Carbonate]
+LMST,Limestone,1253,Sediment Chemical/Biogenic Carbonate,basement,Carbonate-chemical sediment,Y,SARIG chemical/biogenic sediment [ROCK_GROUP: Sediment Chemical/Biogenic Carbonate]
+MSED,Metasediment,1020,Metasediment,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment]
+GBRO,Gabbro,983,Igneous Mafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG mafic igneous [ROCK_GROUP: Igneous Mafic Intrusive]
+CGLM,Conglomerate,878,Sediment Siliciclastic Rudite,basement,Clastic sediment,Y,SARIG siliciclastic sediment [ROCK_GROUP: Sediment Siliciclastic Rudite]
+PORP,Porphyry,862,Igneous,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous]
+MSOM,Metasomatite,853,Metasomatic/Thermal/Hydrothermal,basement,EXCLUDED,N,"alteration: chemistry reflects process, not protolith [ROCK_GROUP: Metasomatic/Thermal/Hydrothermal]"
+AMPH,Amphibolite,631,Metamorphic General,basement,Metamorphic,Y,SARIG metamorphic [ROCK_GROUP: Metamorphic General]
+BREC,Breccia (Undiff. Origin),612,Breccia (Undifferentiated),basement,EXCLUDED,N,breccia undiff: commonly mineralisation-related in SA [ROCK_GROUP: Breccia (Undifferentiated)]
+PXNT,Pyroxenite,579,Igneous Ultramafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG ultramafic igneous [ROCK_GROUP: Igneous Ultramafic Intrusive]
+FEXT,Felsic Extrusive,576,Igneous Felsic Extrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Extrusive]
+BSLT,Basalt,573,Igneous Mafic Extrusive,basement,Mafic-ultramafic igneous,Y,SARIG mafic igneous [ROCK_GROUP: Igneous Mafic Extrusive]
+GOID,Granitoid Rock,559,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+MDST,Mudstone,525,Sediment Siliciclastic Lutite,basement,Clastic sediment,Y,SARIG siliciclastic sediment [ROCK_GROUP: Sediment Siliciclastic Lutite]
+DIOR,Diorite,513,Igneous Intermediate Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Intrusive]
+CAAR,Calcarenite,503,Sediment Chemical/Biogenic Carbonate,basement,Carbonate-chemical sediment,Y,SARIG chemical/biogenic sediment [ROCK_GROUP: Sediment Chemical/Biogenic Carbonate]
+MDIO,Metadiorite,489,Meta-Igneous Intermediate,basement,Felsic-intermediate igneous,Y,felsic-intermediate protolith chemistry survives [ROCK_GROUP: Meta-Igneous Intermediate]
+DOLR,Dolerite,485,Igneous Mafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG mafic igneous [ROCK_GROUP: Igneous Mafic Intrusive]
+PHYL,Phyllite,485,Metamorphic General,basement,Metamorphic,Y,SARIG metamorphic [ROCK_GROUP: Metamorphic General]
+MARL,Marl,478,Sediment Chemical/Biogenic Carbonate,basement,Carbonate-chemical sediment,Y,SARIG chemical/biogenic sediment [ROCK_GROUP: Sediment Chemical/Biogenic Carbonate]
+SILT,Silt,458,Sediment Siliciclastic Lutite,overburden,Transported cover,Y,unconsolidated name within siliciclastic group
+RHYO,Rhyolite,390,Igneous Felsic Extrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Extrusive]
+VOLC,Volcanics,383,Igneous Extrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Extrusive]
+SOIL,Soil,377,Soil,overburden,Transported cover,Y,surface material [ROCK_GROUP: Soil]
+CASI,Calcsilicate Rock,360,Metasediment,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment]
+SILC,Silcrete,330,Duricrust Siliceous,interburden,In-situ regolith,Y,duricrust caps the in-situ profile [ROCK_GROUP: Duricrust Siliceous]
+MARB,Marble,316,Metasediment,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment]
+GPSM,Gypsum Rock,303,Sediment Chemical/Biogenic Evaporite,basement,Carbonate-chemical sediment,Y,evaporite: chemical sediment
+GRVL,Gravel,274,Sediment Siliciclastic Rudite,overburden,Transported cover,Y,unconsolidated name within siliciclastic group
+MYLN,Mylonite,268,Metamorphic Dynamic,basement,EXCLUDED,N,fault rock: chemistry inherits unknown protolith [ROCK_GROUP: Metamorphic Dynamic]
+REGO,Regolith,265,Regolith,interburden,In-situ regolith,Y,SARIG regolith group [ROCK_GROUP: Regolith]
+IMAF,Igneous Mafic,248,Igneous Mafic,basement,Mafic-ultramafic igneous,Y,SARIG mafic igneous [ROCK_GROUP: Igneous Mafic]
+DACT,Dacite,236,Igneous Felsic Extrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Extrusive]
+GRDI,Granodiorite,234,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+MEXT,Mafic Extrusive,202,Igneous Mafic Extrusive,basement,Mafic-ultramafic igneous,Y,SARIG mafic igneous [ROCK_GROUP: Igneous Mafic Extrusive]
+GRNL,Granulite,192,Metamorphic General,basement,Metamorphic,Y,SARIG metamorphic [ROCK_GROUP: Metamorphic General]
+CALC,Calcrete,192,Duricrust Calcareous,interburden,In-situ regolith,Y,duricrust caps the in-situ profile [ROCK_GROUP: Duricrust Calcareous]
+JSPT,Jaspilite,192,Sediment Chemical/Biogenic Ferruginous,basement,EXCLUDED,N,iron formation: too few complete-case samples; Fe-oxide chemistry distorts a small class [ROCK_GROUP: Sediment Chemical/Biogenic Ferruginous]
+CLST,Claystone,191,Sediment Siliciclastic Lutite,basement,Clastic sediment,Y,SARIG siliciclastic sediment [ROCK_GROUP: Sediment Siliciclastic Lutite]
+META,Metamorphic Rock,185,Metamorphic,basement,Metamorphic,Y,SARIG metamorphic [ROCK_GROUP: Metamorphic]
+ADML,Adamellite,170,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+MFIG,Meta-Felsic Igneous Rock,160,Meta-Igneous Felsic,basement,Felsic-intermediate igneous,Y,felsic-intermediate protolith chemistry survives [ROCK_GROUP: Meta-Igneous Felsic]
+PELT,Pelite,159,Metasediment,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment]
+RHYD,Rhyodacite,158,Igneous Felsic Extrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Extrusive]
+IRSU,Ironstone (Undiff. Origin),143,General/Miscellaneous,basement,EXCLUDED,N,unresolvable without protolith info [ROCK_GROUP: General/Miscellaneous]
+SKRN,Skarn,140,Metasomatic/Thermal/Hydrothermal,basement,EXCLUDED,N,"alteration: chemistry reflects process, not protolith [ROCK_GROUP: Metasomatic/Thermal/Hydrothermal]"
+GYWK,Greywacke,135,Sediment Siliciclastic Arenite,basement,Clastic sediment,Y,SARIG siliciclastic sediment [ROCK_GROUP: Sediment Siliciclastic Arenite]
+XXXX,No Information,130,No Information,basement,EXCLUDED,N,no rock group recorded [ROCK_GROUP: No Information]
+PEGM,Pegmatite (No Composition),124,Igneous Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intrusive]
+CBSD,Chemical/Biogenic Sediment,117,Sediment Chemical/Biogenic,basement,Carbonate-chemical sediment,Y,SARIG chemical/biogenic sediment [ROCK_GROUP: Sediment Chemical/Biogenic]
+DIMC,Diamictite,116,Sediment Siliciclastic Mixed Grainsize,basement,Clastic sediment,Y,SARIG siliciclastic sediment [ROCK_GROUP: Sediment Siliciclastic Mixed Grainsize]
+LIGN,Lignite,115,Sediment Chemical/Biogenic Carbonaceous,basement,EXCLUDED,N,organic (coal/lignite): chemistry unlike silicate rocks [ROCK_GROUP: Sediment Chemical/Biogenic Carbonaceous]
+MINT,Mafic Intrusive,115,Igneous Mafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG mafic igneous [ROCK_GROUP: Igneous Mafic Intrusive]
+MDOL,Metadolerite,113,Meta-Igneous Mafic,basement,Mafic-ultramafic igneous,Y,mafic protolith chemistry survives [ROCK_GROUP: Meta-Igneous Mafic]
+COQN,Coquina,112,Sediment Chemical/Biogenic Carbonate,basement,Carbonate-chemical sediment,Y,SARIG chemical/biogenic sediment [ROCK_GROUP: Sediment Chemical/Biogenic Carbonate]
+MBAS,Metabasalt,112,Meta-Igneous Mafic,basement,Mafic-ultramafic igneous,Y,mafic protolith chemistry survives [ROCK_GROUP: Meta-Igneous Mafic]
+TUFF,Tuff,107,Igneous Extrusive Fragmental,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Extrusive Fragmental]
+KIMB,Kimberlite,105,Igneous Lamprophyric,basement,Mafic-ultramafic igneous,Y,lamprophyre: alkaline mafic dyke [ROCK_GROUP: Igneous Lamprophyric]
+PRDT,Peridotite,102,Igneous Ultramafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG ultramafic igneous [ROCK_GROUP: Igneous Ultramafic Intrusive]
+TLLT,Tillite,99,Sediment Siliciclastic Mixed Grainsize,basement,Clastic sediment,Y,SARIG siliciclastic sediment [ROCK_GROUP: Sediment Siliciclastic Mixed Grainsize]
+VOCL,Volcaniclastic Rock,98,Igneous Extrusive Fragmental,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Extrusive Fragmental]
+ALBS,Albite-Altered Rock (Sediment Precursor),97,Metasediment,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment]
+MGBR,Metagabbro,92,Meta-Igneous Mafic,basement,Mafic-ultramafic igneous,Y,mafic protolith chemistry survives [ROCK_GROUP: Meta-Igneous Mafic]
+PSPE,Psammopelite,92,Metasediment,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment]
+QFPO,Quartz Feldspar Porphyry,90,Igneous Felsic,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic]
+FPEG,Felsic Pegmatite,83,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+MVOL,Metavolcanic,83,Meta-Igneous,basement,Felsic-intermediate igneous,Y,felsic-intermediate protolith chemistry survives [ROCK_GROUP: Meta-Igneous]
+ANDS,Andesite,79,Igneous Intermediate Extrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Extrusive]
+MCGR,Microgranite,74,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+MMIG,Meta-Mafic Igneous Rock,66,Meta-Igneous Mafic,basement,Mafic-ultramafic igneous,Y,mafic protolith chemistry survives [ROCK_GROUP: Meta-Igneous Mafic]
+FBRC,Fault Breccia,65,Metamorphic Dynamic Breccia,basement,EXCLUDED,N,fault rock: chemistry inherits unknown protolith [ROCK_GROUP: Metamorphic Dynamic Breccia]
+PSAM,Psammite,63,Metasediment,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment]
+MGRD,Metagranodiorite,63,Meta-Igneous Felsic,basement,Felsic-intermediate igneous,Y,felsic-intermediate protolith chemistry survives [ROCK_GROUP: Meta-Igneous Felsic]
+CHRT,Chert,63,Sediment Chemical/Biogenic Siliceous,basement,Carbonate-chemical sediment,Y,SARIG chemical/biogenic sediment [ROCK_GROUP: Sediment Chemical/Biogenic Siliceous]
+HFLS,Hornfels,62,Metasomatic/Thermal/Hydrothermal,basement,EXCLUDED,N,"alteration: chemistry reflects process, not protolith [ROCK_GROUP: Metasomatic/Thermal/Hydrothermal]"
+MIGM,Migmatite,62,Metamorphic General,basement,Metamorphic,Y,SARIG metamorphic [ROCK_GROUP: Metamorphic General]
+SLAT,Slate,58,Metasediment,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment]
+TONL,Tonalite,58,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+MINO,Mineralised Rock/Ore,57,Mineralised Rock/Ore,basement,EXCLUDED,N,ore: mineralisation chemistry [ROCK_GROUP: Mineralised Rock/Ore]
+MZGR,Monzogranite,57,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+CAST,Calcsiltstone,57,Sediment Siliciclastic Lutite,basement,Clastic sediment,Y,SARIG siliciclastic sediment [ROCK_GROUP: Sediment Siliciclastic Lutite]
+FINT,Felsic Intrusive,56,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+IGNM,Ignimbrite,56,Igneous Felsic Extrusive Fragmental,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Extrusive Fragmental]
+KOMT,Komatiite,53,Igneous Ultramafic Extrusive Effusive,basement,Mafic-ultramafic igneous,Y,SARIG ultramafic igneous [ROCK_GROUP: Igneous Ultramafic Extrusive Effusive]
+DLAR,Dolarenite,51,Sediment Chemical/Biogenic Carbonate,basement,Carbonate-chemical sediment,Y,SARIG chemical/biogenic sediment [ROCK_GROUP: Sediment Chemical/Biogenic Carbonate]
+GOSS,Gossan,51,Duricrust Ferruginous,interburden,In-situ regolith,Y,duricrust caps the in-situ profile [ROCK_GROUP: Duricrust Ferruginous]
+VEIN,Vein (Undifferentiated),50,Metasomatic/Thermal/Hydrothermal Vein,basement,EXCLUDED,N,"alteration: chemistry reflects process, not protolith [ROCK_GROUP: Metasomatic/Thermal/Hydrothermal Vein]"
+BIFM,Banded Iron Formation,50,Sediment Chemical/Biogenic Ferruginous,basement,EXCLUDED,N,iron formation: too few complete-case samples; Fe-oxide chemistry distorts a small class [ROCK_GROUP: Sediment Chemical/Biogenic Ferruginous]
+MQTZ,Metaquartzite,48,Metasediment Siliciclastic,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment Siliciclastic]
+NORT,Norite,47,Igneous Mafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG mafic igneous [ROCK_GROUP: Igneous Mafic Intrusive]
+MUD,Mud,46,Sediment Siliciclastic Lutite,overburden,Transported cover,Y,unconsolidated name within siliciclastic group
+MGYW,Metagreywacke,45,Metasediment Siliciclastic,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment Siliciclastic]
+CLRD,Calcrudite,45,Sediment Chemical/Biogenic Carbonate,basement,Carbonate-chemical sediment,Y,SARIG chemical/biogenic sediment [ROCK_GROUP: Sediment Chemical/Biogenic Carbonate]
+MONZ,Monzonite,44,Igneous Intermediate Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Intrusive]
+SYEN,Syenite,43,Igneous Intermediate Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Intrusive]
+ANRT,Anorthosite,43,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+TRCH,Trachyte,40,Igneous Intermediate Extrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Extrusive]
+UINT,Ultramafic Intrusive,40,Igneous Ultramafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG ultramafic igneous [ROCK_GROUP: Igneous Ultramafic Intrusive]
+FERC,Ferricrete,39,Duricrust Ferruginous,interburden,In-situ regolith,Y,duricrust caps the in-situ profile [ROCK_GROUP: Duricrust Ferruginous]
+SEDM,Sedimentary Rock,39,Sediment,basement,EXCLUDED,N,sediment undiff: cover vs basement ambiguous [ROCK_GROUP: Sediment]
+MTON,Metatonalite,37,Meta-Igneous Felsic,basement,Felsic-intermediate igneous,Y,felsic-intermediate protolith chemistry survives [ROCK_GROUP: Meta-Igneous Felsic]
+MSSI,Metasediment Siliciclastic,34,Metasediment Siliciclastic,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment Siliciclastic]
+MZDI,Monzodiorite,33,Igneous Intermediate Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Intrusive]
+MCGB,Microgabbro,33,Igneous Mafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG mafic igneous [ROCK_GROUP: Igneous Mafic Intrusive]
+MGRN,Metagranite,33,Meta-Igneous Felsic,basement,Felsic-intermediate igneous,Y,felsic-intermediate protolith chemistry survives [ROCK_GROUP: Meta-Igneous Felsic]
+OTGN,Orthogneiss,32,Meta-Igneous General Metamorphic,basement,Metamorphic,Y,protolith composition unknown [ROCK_GROUP: Meta-Igneous General Metamorphic]
+LOAM,Loam,31,Soil,overburden,Transported cover,Y,surface material [ROCK_GROUP: Soil]
+IRFM,Iron Formation,30,Sediment Chemical/Biogenic Ferruginous,basement,EXCLUDED,N,iron formation: too few complete-case samples; Fe-oxide chemistry distorts a small class [ROCK_GROUP: Sediment Chemical/Biogenic Ferruginous]
+CALU,Calcilutite,29,Sediment Chemical/Biogenic Carbonate,basement,Carbonate-chemical sediment,Y,SARIG chemical/biogenic sediment [ROCK_GROUP: Sediment Chemical/Biogenic Carbonate]
+SERP,Serpentinite,29,Meta-Igneous General Metamorphic,basement,Metamorphic,Y,protolith composition unknown [ROCK_GROUP: Meta-Igneous General Metamorphic]
+ALLV,Alluvium,28,Sediment,basement,EXCLUDED,N,sediment undiff: cover vs basement ambiguous [ROCK_GROUP: Sediment]
+MINL,Mineral Specimen,27,General/Miscellaneous,basement,EXCLUDED,N,unresolvable without protolith info [ROCK_GROUP: General/Miscellaneous]
+ARKS,Arkose,26,Sediment Siliciclastic Arenite,basement,Clastic sediment,Y,SARIG siliciclastic sediment [ROCK_GROUP: Sediment Siliciclastic Arenite]
+QZDI,Quartz Diorite,25,Igneous Intermediate Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Intrusive]
+DTEX,Diatexite,25,Metamorphic General,basement,Metamorphic,Y,SARIG metamorphic [ROCK_GROUP: Metamorphic General]
+MMUD,Metamudstone,25,Metasediment Siliciclastic,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment Siliciclastic]
+IFEL,Igneous Felsic,24,Igneous Felsic,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic]
+INTR,Igneous Intrusive,24,Igneous Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intrusive]
+CLLV,Colluvium,23,Sediment,basement,EXCLUDED,N,sediment undiff: cover vs basement ambiguous [ROCK_GROUP: Sediment]
+IGNE,Unclassified Igneous,23,Igneous,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous]
+METL,Metallic Mineralised Rock/Ore,22,Mineralised Rock/Ore Metallic,basement,EXCLUDED,N,ore: mineralisation chemistry [ROCK_GROUP: Mineralised Rock/Ore Metallic]
+ALBM,Albitite (Metasomatic),21,Metasomatic/Thermal/Hydrothermal,basement,EXCLUDED,N,"alteration: chemistry reflects process, not protolith [ROCK_GROUP: Metasomatic/Thermal/Hydrothermal]"
+LAMP,Igneous Lamprophyric,21,Igneous Lamprophyric,basement,Mafic-ultramafic igneous,Y,lamprophyre: alkaline mafic dyke [ROCK_GROUP: Igneous Lamprophyric]
+LCGR,Leucogranite,21,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+MGTM,Magnetite-Rich Rock (Metasomatic),21,Metasomatic/Thermal/Hydrothermal,basement,EXCLUDED,N,"alteration: chemistry reflects process, not protolith [ROCK_GROUP: Metasomatic/Thermal/Hydrothermal]"
+UNKN,Unknown,20,No Information,basement,EXCLUDED,N,no rock group recorded [ROCK_GROUP: No Information]
+MIIG,Meta-Intermediate Igneous Rock,19,Meta-Igneous Intermediate,basement,Felsic-intermediate igneous,Y,felsic-intermediate protolith chemistry survives [ROCK_GROUP: Meta-Igneous Intermediate]
+SYGN,Syenogranite,19,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+APLT,Aplite,19,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+GBNR,Gabbronorite,18,Igneous Mafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG mafic igneous [ROCK_GROUP: Igneous Mafic Intrusive]
+MDIA,Metadiamictite,18,Metasediment Siliciclastic,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment Siliciclastic]
+MCDI,Microdiorite,17,Igneous Intermediate Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Intrusive]
+QZSY,Quartz Syenite,15,Igneous Intermediate Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Intrusive]
+FSPO,Feldspar Porphyry,15,Igneous Felsic,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic]
+GREI,Greisen,15,Metasomatic/Thermal/Hydrothermal,basement,EXCLUDED,N,"alteration: chemistry reflects process, not protolith [ROCK_GROUP: Metasomatic/Thermal/Hydrothermal]"
+LPHY,Lamprophyre,14,Igneous Lamprophyric,basement,Mafic-ultramafic igneous,Y,lamprophyre: alkaline mafic dyke [ROCK_GROUP: Igneous Lamprophyric]
+PAMP,Para-Amphibolite,14,Metasediment,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment]
+ELUV,Eluvium,12,Residual Material,interburden,In-situ regolith,Y,in-situ residuum [ROCK_GROUP: Residual Material]
+ARGL,Argillite,12,Sediment Siliciclastic Lutite,basement,Clastic sediment,Y,SARIG siliciclastic sediment [ROCK_GROUP: Sediment Siliciclastic Lutite]
+GRIT,Grit,12,Sediment Siliciclastic Arenite,basement,Clastic sediment,Y,SARIG siliciclastic sediment [ROCK_GROUP: Sediment Siliciclastic Arenite]
+AUGN,Augen Gneiss,12,Metamorphic General,basement,Metamorphic,Y,SARIG metamorphic [ROCK_GROUP: Metamorphic General]
+MADL,Microadamellite,11,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+AUBX,Autobreccia,11,Igneous Extrusive Breccia,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Extrusive Breccia]
+FOSS,Fossils,11,Sediment Chemical/Biogenic,basement,Carbonate-chemical sediment,Y,SARIG chemical/biogenic sediment [ROCK_GROUP: Sediment Chemical/Biogenic]
+MMIN,Meta-Mafic Intrusive Rock,10,Meta-Igneous Mafic,basement,Mafic-ultramafic igneous,Y,mafic protolith chemistry survives [ROCK_GROUP: Meta-Igneous Mafic]
+MRHY,Metarhyolite,10,Meta-Igneous Felsic,basement,Felsic-intermediate igneous,Y,felsic-intermediate protolith chemistry survives [ROCK_GROUP: Meta-Igneous Felsic]
+TRON,Trondhjemite,10,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+IRSM,Ironstone (Metasomatic),10,Metasomatic/Thermal/Hydrothermal,basement,EXCLUDED,N,"alteration: chemistry reflects process, not protolith [ROCK_GROUP: Metasomatic/Thermal/Hydrothermal]"
+CLYM,Clay (Metasomatic),10,Metasomatic/Thermal/Hydrothermal,basement,EXCLUDED,N,"alteration: chemistry reflects process, not protolith [ROCK_GROUP: Metasomatic/Thermal/Hydrothermal]"
+CBRK,Carbonate Rock,10,Sediment Chemical/Biogenic Carbonate,basement,Carbonate-chemical sediment,Y,SARIG chemical/biogenic sediment [ROCK_GROUP: Sediment Chemical/Biogenic Carbonate]
+VSND,Volcanic Sandstone (Penecontemp. With Volcanism),10,Igneous Extrusive Fragmental,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Extrusive Fragmental]
+QMTM,Quartz-Magnetite Rock (Metasomatic),8,Metasomatic/Thermal/Hydrothermal,basement,EXCLUDED,N,"alteration: chemistry reflects process, not protolith [ROCK_GROUP: Metasomatic/Thermal/Hydrothermal]"
+TBAS,Trachybasalt,8,Igneous Mafic Extrusive,basement,Mafic-ultramafic igneous,Y,SARIG mafic igneous [ROCK_GROUP: Igneous Mafic Extrusive]
+TAND,Trachyandesite,7,Igneous Intermediate Extrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Extrusive]
+LATR,Laterite,7,Duricrust Ferruginous,interburden,In-situ regolith,Y,duricrust caps the in-situ profile [ROCK_GROUP: Duricrust Ferruginous]
+MAND,Meta-Andesite,7,Meta-Igneous Intermediate,basement,Felsic-intermediate igneous,Y,felsic-intermediate protolith chemistry survives [ROCK_GROUP: Meta-Igneous Intermediate]
+QZPO,Quartz Porphyry,7,Igneous Felsic,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic]
+MUMI,Mafic/Ultramafic Intrusive,7,Igneous Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intrusive]
+QZRM,Quartz Rock (Metasomatic),7,Metasomatic/Thermal/Hydrothermal,basement,EXCLUDED,N,"alteration: chemistry reflects process, not protolith [ROCK_GROUP: Metasomatic/Thermal/Hydrothermal]"
+AGLM,Agglomerate,6,Igneous Extrusive Fragmental,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Extrusive Fragmental]
+MMEX,Meta-Mafic Extrusive Rock,6,Meta-Igneous Mafic,basement,Mafic-ultramafic igneous,Y,mafic protolith chemistry survives [ROCK_GROUP: Meta-Igneous Mafic]
+MUIG,Meta-Ultramafic Igneous Rock,6,Meta-Igneous Ultramafic,basement,Mafic-ultramafic igneous,Y,ultramafic protolith chemistry [ROCK_GROUP: Meta-Igneous Ultramafic]
+LHZT,Lherzolite,6,Igneous Ultramafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG ultramafic igneous [ROCK_GROUP: Igneous Ultramafic Intrusive]
+GNFS,Granofels,6,Metamorphic General,basement,Metamorphic,Y,SARIG metamorphic [ROCK_GROUP: Metamorphic General]
+EXTR,Igneous Extrusive,5,Igneous Extrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Extrusive]
+ALSK,Alaskite,5,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+GNPH,Granophyre,5,Igneous Felsic,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic]
+MCGD,Microgranodiorite,5,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+TROC,Troctolite,5,Igneous Mafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG mafic igneous [ROCK_GROUP: Igneous Mafic Intrusive]
+LAPT,Lapilli Tuff,5,Igneous Extrusive Fragmental,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Extrusive Fragmental]
+PYBX,Pyroclastic Breccia,5,Igneous Extrusive Breccia,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Extrusive Breccia]
+ASH,Ash,4,Igneous Extrusive Fragmental,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Extrusive Fragmental]
+GYPC,Gypcrete,4,Duricrust Gypsiferous,interburden,In-situ regolith,Y,duricrust caps the in-situ profile [ROCK_GROUP: Duricrust Gypsiferous]
+IEXT,Intermediate Extrusive,4,Igneous Intermediate Extrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Extrusive]
+MCDL,Microdolerite,4,Igneous Mafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG mafic igneous [ROCK_GROUP: Igneous Mafic Intrusive]
+LAVA,Lava,4,Igneous Extrusive Effusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Extrusive Effusive]
+MZGB,Monzogabbro,4,Igneous Mafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG mafic igneous [ROCK_GROUP: Igneous Mafic Intrusive]
+MDYN,Dynamic Metamorphic Rock,4,Metamorphic Dynamic,basement,EXCLUDED,N,fault rock: chemistry inherits unknown protolith [ROCK_GROUP: Metamorphic Dynamic]
+WTUF,Welded Tuff,3,Igneous Felsic Extrusive Fragmental,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Extrusive Fragmental]
+HBLT,Hornblendite,3,Igneous Ultramafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG ultramafic igneous [ROCK_GROUP: Igneous Ultramafic Intrusive]
+PHOS,Phosphorite,3,Sediment Chemical/Biogenic Phosphatic/Nitrate,basement,EXCLUDED,N,n=3 [ROCK_GROUP: Sediment Chemical/Biogenic Phosphatic/Nitrate]
+MUIN,Meta-Ultramafic Intrusive Rock,3,Meta-Igneous Ultramafic,basement,Mafic-ultramafic igneous,Y,ultramafic protolith chemistry [ROCK_GROUP: Meta-Igneous Ultramafic]
+MJSP,Metajaspilite,3,Metasediment Chemical/Biogenic,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment Chemical/Biogenic]
+PAGN,Paragneiss,3,Metasediment,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment]
+IINT,Intermediate Intrusive,3,Igneous Intermediate Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Intrusive]
+CATA,Cataclasite,3,Metamorphic Dynamic Breccia,basement,EXCLUDED,N,fault rock: chemistry inherits unknown protolith [ROCK_GROUP: Metamorphic Dynamic Breccia]
+DUNT,Dunite,3,Igneous Ultramafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG ultramafic igneous [ROCK_GROUP: Igneous Ultramafic Intrusive]
+QZMD,Quartz Monzodiorite,2,Igneous Intermediate Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Intrusive]
+MTUF,Metatuff,2,Meta-Igneous Fragmental,basement,Felsic-intermediate igneous,Y,felsic-intermediate protolith chemistry survives [ROCK_GROUP: Meta-Igneous Fragmental]
+WKST,Wackestone,2,Sediment Chemical/Biogenic Carbonate,basement,Carbonate-chemical sediment,Y,SARIG chemical/biogenic sediment [ROCK_GROUP: Sediment Chemical/Biogenic Carbonate]
+UMAF,Igneous Ultramafic,2,Igneous Ultramafic,basement,Mafic-ultramafic igneous,Y,SARIG ultramafic igneous [ROCK_GROUP: Igneous Ultramafic]
+SBRC,Sedimentary Siliciclastic Breccia,2,Sediment Siliciclastic Rudite Breccia,basement,Clastic sediment,Y,SARIG siliciclastic sediment [ROCK_GROUP: Sediment Siliciclastic Rudite Breccia]
+LPRO,Lamproite,2,Igneous Lamprophyric,basement,Mafic-ultramafic igneous,Y,lamprophyre: alkaline mafic dyke [ROCK_GROUP: Igneous Lamprophyric]
+MANM,Anthropogenic/Man Made Material,2,Anthropogenic/Man Made,basement,EXCLUDED,N,not a rock [ROCK_GROUP: Anthropogenic/Man Made]
+HARZ,Harzburgite,2,Igneous Ultramafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG ultramafic igneous [ROCK_GROUP: Igneous Ultramafic Intrusive]
+COAL,Coal,2,Sediment Chemical/Biogenic Carbonaceous,basement,EXCLUDED,N,organic (coal/lignite): chemistry unlike silicate rocks [ROCK_GROUP: Sediment Chemical/Biogenic Carbonaceous]
+BAAN,Basaltic Andesite,2,Igneous Intermediate Extrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Extrusive]
+ASHT,Ash Tuff,2,Igneous Extrusive Fragmental,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Extrusive Fragmental]
+ALBL,Albite-Altered Rock (Clastic Sed Precursor),2,Metasediment Siliciclastic,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment Siliciclastic]
+CABT,Carbonatite,2,Igneous,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous]
+MDAC,Metadacite,2,Meta-Igneous Felsic,basement,Felsic-intermediate igneous,Y,felsic-intermediate protolith chemistry survives [ROCK_GROUP: Meta-Igneous Felsic]
+MEXE,Mafic Extrusive Effusive,2,Igneous Mafic Extrusive Effusive,basement,Mafic-ultramafic igneous,Y,SARIG mafic igneous [ROCK_GROUP: Igneous Mafic Extrusive Effusive]
+MCTO,Microtonalite,2,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+MEGN,Melagneiss,2,Metamorphic General,basement,Metamorphic,Y,SARIG metamorphic [ROCK_GROUP: Metamorphic General]
+MPRD,Metaperidotite,2,Meta-Igneous Ultramafic,basement,Mafic-ultramafic igneous,Y,ultramafic protolith chemistry [ROCK_GROUP: Meta-Igneous Ultramafic]
+MRHD,Metarhyodacite,2,Meta-Igneous Felsic,basement,Felsic-intermediate igneous,Y,felsic-intermediate protolith chemistry survives [ROCK_GROUP: Meta-Igneous Felsic]
+PCST,Pitchstone,2,Igneous Felsic Extrusive Effusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Extrusive Effusive]
+MARK,Meta-Arkose,2,Metasediment Siliciclastic,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment Siliciclastic]
+MCGN,Microgneiss,1,Metamorphic General,basement,Metamorphic,Y,SARIG metamorphic [ROCK_GROUP: Metamorphic General]
+LATT,Latite,1,Igneous Intermediate Extrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Extrusive]
+KPHR,Keratophyre,1,Igneous Intermediate Extrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Extrusive]
+HYBR,Hydrothermal Breccia,1,Metasomatic/Thermal/Hydrothermal Breccia,basement,EXCLUDED,N,"alteration: chemistry reflects process, not protolith [ROCK_GROUP: Metasomatic/Thermal/Hydrothermal Breccia]"
+GNST,Greenstone,1,Metamorphic General,basement,Metamorphic,Y,SARIG metamorphic [ROCK_GROUP: Metamorphic General]
+GRUS,Grus,1,Regolith,interburden,In-situ regolith,Y,SARIG regolith group [ROCK_GROUP: Regolith]
+HALT,Halite Rock,1,Sediment Chemical/Biogenic Evaporite,basement,Carbonate-chemical sediment,Y,SARIG chemical/biogenic sediment [ROCK_GROUP: Sediment Chemical/Biogenic Evaporite]
+FGAB,Ferrogabbro,1,Igneous Mafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG mafic igneous [ROCK_GROUP: Igneous Mafic Intrusive]
+CAEH,Calcareous Earth,1,Regolith,interburden,In-situ regolith,Y,SARIG regolith group [ROCK_GROUP: Regolith]
+BIOT,Biotitite,1,Igneous Ultramafic,basement,Mafic-ultramafic igneous,Y,SARIG ultramafic igneous [ROCK_GROUP: Igneous Ultramafic]
+BATA,Basaltic Trachyandesite,1,Igneous Intermediate Extrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Extrusive]
+AFGN,Alkali Feldspar Granite,1,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+EPDT,Epidosite,1,Metasomatic/Thermal/Hydrothermal,basement,EXCLUDED,N,"alteration: chemistry reflects process, not protolith [ROCK_GROUP: Metasomatic/Thermal/Hydrothermal]"
+EXHA,Exhalite,1,Sediment Chemical/Biogenic,basement,Carbonate-chemical sediment,Y,SARIG chemical/biogenic sediment [ROCK_GROUP: Sediment Chemical/Biogenic]
+FEXE,Felsic Extrusive Effusive,1,Igneous Felsic Extrusive Effusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Extrusive Effusive]
+MCSY,Microsyenite,1,Igneous Intermediate Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Intrusive]
+OPCA,Ophicalcite,1,Metasediment,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment]
+OAMP,Orthoamphibolite,1,Meta-Igneous General Metamorphic,basement,Metamorphic,Y,protolith composition unknown [ROCK_GROUP: Meta-Igneous General Metamorphic]
+MSCB,Metasediment Chemical/Biogenic,1,Metasediment Chemical/Biogenic,basement,Metamorphic,Y,SARIG metasediment [ROCK_GROUP: Metasediment Chemical/Biogenic]
+MNET,Minette,1,Igneous Lamprophyric,basement,Mafic-ultramafic igneous,Y,lamprophyre: alkaline mafic dyke [ROCK_GROUP: Igneous Lamprophyric]
+PKST,Packstone,1,Sediment Chemical/Biogenic Carbonate,basement,Carbonate-chemical sediment,Y,SARIG chemical/biogenic sediment [ROCK_GROUP: Sediment Chemical/Biogenic Carbonate]
+PYRO,Pyroclastic,1,Igneous Extrusive Fragmental,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Extrusive Fragmental]
+QGTD,Quartz-Rich Granitoid,1,Igneous Felsic Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Felsic Intrusive]
+QZMZ,Quartz Monzonite,1,Igneous Intermediate Intrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Intrusive]
+SAPK,Saprock,1,Saprolith,interburden,In-situ regolith,Y,SARIG saprolith = in-situ weathering [ROCK_GROUP: Saprolith]
+QZTR,Quartz Trachyte,1,Igneous Intermediate Extrusive,basement,Felsic-intermediate igneous,Y,SARIG felsic/intermediate/undiff igneous [ROCK_GROUP: Igneous Intermediate Extrusive]
+QZRU,Quartz Rock (Undiff. Origin),1,General/Miscellaneous,basement,EXCLUDED,N,unresolvable without protolith info [ROCK_GROUP: General/Miscellaneous]
+SPST,Soapstone,1,Metamorphic General,basement,Metamorphic,Y,SARIG metamorphic [ROCK_GROUP: Metamorphic General]
+TCTO,Tectonite,1,Metamorphic Dynamic,basement,EXCLUDED,N,fault rock: chemistry inherits unknown protolith [ROCK_GROUP: Metamorphic Dynamic]
+TALU,Talus,1,Sediment Siliciclastic Rudite,basement,Clastic sediment,Y,SARIG siliciclastic sediment [ROCK_GROUP: Sediment Siliciclastic Rudite]
+UEXT,Ultramafic Extrusive,1,Igneous Ultramafic Extrusive,basement,Mafic-ultramafic igneous,Y,SARIG ultramafic igneous [ROCK_GROUP: Igneous Ultramafic Extrusive]
+WEHR,Wehrlite,1,Igneous Ultramafic Intrusive,basement,Mafic-ultramafic igneous,Y,SARIG ultramafic igneous [ROCK_GROUP: Igneous Ultramafic Intrusive]

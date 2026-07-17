@@ -63,3 +63,82 @@ lithologically). Claude drafts, Hugh edits and approves in Phase 1.
 and interpretation artefacts.*
 
 **Status: direction agreed; lookup table itself pending Hugh's approval**
+
+## 2026-07-17 — Censored-value handling: DL/2 substitution with flags
+
+`"<x"` → x/2 with flag `below`; `">x"` → face value with flag `above`;
+negative raw values → missing with flag `negative`; unparseable strings →
+missing with flag `unparsed`. Nothing coerced or dropped silently; flags are
+carried per element into clean.parquet. *Rationale: DL/2 is the standard
+simple substitution; the flag columns preserve censoring information for
+the model and for the limitations section (formal censored-data methods are
+a documented non-goal).*
+
+**Status: approved by Hugh (2026-07-17)**
+
+## 2026-07-17 — Unit harmonisation to ppm
+
+% ×10,000; ppb ÷1,000; g/T ≡ ppm. Rows in non-mass-fraction units (cps,
+us/cm, mg/L, ug/L, NOUNIT — ~0.01% of analyses) are unconvertible and
+excluded from the pivot. *Rationale: single unit basis is required before
+any compositional treatment; the excluded units measure properties, not
+concentrations.*
+
+**Status: approved by Hugh (2026-07-17)**
+
+## 2026-07-17 — Duplicate analyses: median, preferring uncensored
+
+Where a sample has multiple analyses of the same element (repeat/check
+assays, multiple labs), the median is taken; censored measurements are
+ignored when an uncensored one exists. *Rationale: median is robust to
+single bad assays; a real measurement always beats a detection-limit
+substitute.*
+
+**Status: approved by Hugh (2026-07-17)**
+
+## 2026-07-17 — Element suite F: Cu, Zn, Pb, Co, Ni, Fe, Mn
+
+Deviation from the brief's default rule (drop elements >40% missing), which
+would keep only Cu, Zn, Pb, Ag. Complete-case trade-off computed across
+seven candidate suites; F chosen because (a) every element has <13%
+censoring — Ag (59% below-DL) and Au (52%) were rejected as features that
+are half detection-limit placeholders, and (b) it retains 20,024
+complete-case samples across 3,424 holes with all seven classes ≥1,314
+samples. *Rationale: more chemical dimensions than the 4-element default,
+without the sample collapse of the 11-element suite (9,913) or the
+censoring load of Ag/Au.*
+
+**Status: approved by Hugh (2026-07-17, suite F chosen explicitly)**
+
+## 2026-07-17 — Lithology lookup finalised: SARIG ROCK_GROUP aggregation
+
+The 255 raw codes are consolidated to 7 classes by aggregating SARIG's own
+ROCK_GROUP taxonomy (see `src/lithoclass/make_lookup.py`, which regenerates
+`data/lith_lookup.csv` reproducibly), with three documented supplements:
+(1) unconsolidated sediment names (sand, clay, silt, gravel, soil) are
+transported cover, not basement clastics — SARIG groups sand with
+sandstone; (2) metamorphosed rocks with known igneous protolith composition
+class with that composition (metabasalt → mafic) since igneous chemistry
+survives metamorphism, while metasediments and undifferentiated
+metamorphics form the Metamorphic class; (3) codes whose chemistry reflects
+process rather than protolith (alteration, mineralisation, ore, fault
+rocks, undifferentiated breccia) are excluded (keep=N, 3,036 samples), as
+are organics (coal/lignite) and iron formations (too few complete-case
+samples). Per-code reasoning is in the `note` column. Classes:
+Transported cover / In-situ regolith / Clastic sediment /
+Carbonate-chemical sediment / Felsic-intermediate igneous /
+Mafic-ultramafic igneous / Metamorphic. *Rationale: the survey's own
+taxonomy is authoritative, auditable, and reproducible; manual judgement is
+confined to the three stated supplements plus code-level notes (e.g.
+undifferentiated clay → cover, the dominant case in SA drillholes).*
+
+**Status: approved by Hugh (2026-07-17)**
+
+## 2026-07-17 — Minimum class support rule
+
+Classes require ≥500 complete-case samples or are merged/dropped. All seven
+classes clear it (smallest: Carbonate-chemical sediment, 1,314 samples
+across 286 holes). *Rationale: enough support per class for stable
+per-class F1 under 5-fold grouped CV.*
+
+**Status: approved by Hugh (2026-07-17)**
