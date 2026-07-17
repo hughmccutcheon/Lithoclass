@@ -180,6 +180,26 @@ result-chasing this repo exists to avoid.*
 
 **Status: approved by Hugh (2026-07-17, delegated with logic recorded)**
 
+## 2026-07-17 — Phase 4 figures: method and honesty choices
+
+All four figures regenerate deterministically from
+`python -m lithoclass.make_figures` (seed 42); nothing hand-edited.
+- **F1 confusion / F4 strip log** use pooled out-of-fold predictions from
+  the tuned RF under GroupKFold — the same honest predictions as the results
+  table.
+- **F3 permutation importance** is computed on a single held-out grouped
+  fold (fit on train, permute on the held-out test), not on training data,
+  so importances reflect generalisation, not memorisation. n_repeats=10.
+- **F4 strip log** shows one best-case and one hard-case hole (highest and
+  lowest per-hole agreement among holes with ≥3 classes and ≥80 samples),
+  each labelled with its agreement %. *Rationale: showing the model's range
+  — not two flattering holes — is the honest choice; the hard-case hole
+  (systematic mafic→metamorphic flip) is itself a teachable confusion.*
+  Predictions are drawn per-sample (no smoothing): the visible volatility in
+  the predicted column is real.
+
+**Status: approved by Hugh (2026-07-17, delegated with logic recorded)**
+
 ## 2026-07-17 — Minimum class support rule
 
 Classes require ≥500 complete-case samples or are merged/dropped. All seven
