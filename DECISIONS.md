@@ -134,6 +134,21 @@ undifferentiated clay → cover, the dominant case in SA drillholes).*
 
 **Status: approved by Hugh (2026-07-17)**
 
+## 2026-07-17 — CLR subcomposition and zero replacement (Phase 2)
+
+Features are the CLR of the closed 7-element suite-F subcomposition
+(Cu, Zn, Pb, Co, Ni, Fe, Mn). Reported zeros exist (e.g. Co: 3,879 of
+20,024 — labs reporting undetected as plain 0 without a "<" marker) and are
+handled by multiplicative replacement: zeros become 0.65 × the column's
+smallest positive value, non-zero parts scaled down so closure is
+preserved. A log10 feature set on zero-replaced ppm is retained strictly as
+the comparison baseline. *Rationale: CLR requires strictly positive closed
+compositions; 0.65 × min-positive is the standard multiplicative-replacement
+heuristic and the reported zeros are best read as unflagged
+below-detection values.*
+
+**Status: approved by Hugh (2026-07-17)**
+
 ## 2026-07-17 — Minimum class support rule
 
 Classes require ≥500 complete-case samples or are merged/dropped. All seven
