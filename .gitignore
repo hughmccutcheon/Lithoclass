@@ -2,6 +2,7 @@
 PROJECT_BRIEF.md
 KICKOFF_PROMPT.md
 HUGH_BRIEFING.md
+INTERPRETATION_QUESTIONS.md
 
 # raw data is never committed
 data/raw/*
