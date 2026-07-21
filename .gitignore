@@ -8,9 +8,12 @@ INTERPRETATION_QUESTIONS.md
 data/raw/*
 !data/raw/.gitkeep
 
-# processed data regenerates from raw
+# processed data regenerates from raw; the small modelling table is
+# committed so figures/results reproduce without the 22 GB raw download
+# (derivative of CC-BY 4.0 SARIG data — see README attribution)
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/clean.parquet
 
 # environment
 .venv/
