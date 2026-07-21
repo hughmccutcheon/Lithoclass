@@ -14,6 +14,7 @@ data/raw/*
 data/processed/*
 !data/processed/.gitkeep
 !data/processed/clean.parquet
+!data/processed/nvcl_mineralogy.parquet
 
 # environment
 .venv/

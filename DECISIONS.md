@@ -6,6 +6,35 @@ entries.
 
 ---
 
+## 2026-07-17 — Phase 6 (stretch) unlocked and scoped
+
+Both CLAUDE.md unlock conditions met: Phase 5 shipped AND Hugh confirmed the
+Datarock application submitted. Scope kept deliberately tight (the one
+sanctioned stretch): a single unsupervised clustering demo on AuScope NVCL
+hyperspectral mineralogy for South Australian drill core (`nvcl_kit`, SA
+node — same state as the geochemistry). 12 holes, 361,132 classified TSA
+SWIR intervals cached to `data/processed/nvcl_mineralogy.parquet`. Framed as
+exploratory (no ground truth), standalone (no cross-link to the geochem
+holes — that idea parked). *Rationale: closest dataset to Datarock's
+core-scanning world; demonstrates the same clean-data habits transfer,
+without scope-cascading the finished project.*
+
+**Status: approved by Hugh (Phase 6 go, 2026-07-17)**
+
+## 2026-07-17 — NVCL clustering: proportions not CLR; KMeans, k by silhouette
+
+Mineral-group proportions are clustered directly on standardised values, NOT
+via the CLR transform used for the assays: mineralogy has *structural* zeros
+(a mineral genuinely absent), which CLR cannot take a log of, unlike the
+rounded/below-detection zeros of geochemistry. k chosen by silhouette over
+3–8, constrained to reject solutions whose smallest cluster is <2% of
+intervals (those raise silhouette only by isolating one-off outliers). Result:
+k=4 (silhouette 0.34) — white-mica / kaolin / carbonate / smectite+sulphate
+domains, all substantial. *Rationale: honest treatment of the different zero
+semantics, and interpretable domains rather than outlier islands.*
+
+**Status: approved by Hugh (delegated with logic recorded, 2026-07-17)**
+
 ## 2026-07-08 — Environment: venv + pip with pinned requirements.txt
 
 `uv` is not installed on this machine, so per CLAUDE.md the fallback applies:

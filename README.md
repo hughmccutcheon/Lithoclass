@@ -201,6 +201,27 @@ The division of labour is the point, and it is auditable:
   cases; the CLR-vs-baseline result was surfaced rather than buried. The trail
   is in [DECISIONS.md](DECISIONS.md).
 
+## Stretch: hyperspectral mineral domains
+
+A short extension into the *other* half of a modern core shed — **hyperspectral
+core scanning**, the domain closest to Datarock's work. Using CSIRO HyLogger
+TSA mineralogy for South Australian drill core from the
+[AuScope NVCL](https://www.auscope.org.au/nvcl/) (same state as the assays), it
+clusters per-depth mineral assemblages into **unsupervised mineral domains** and
+plots them downhole — the same idea as the geochemistry strip log, from spectra
+instead of chemistry.
+
+![NVCL mineral domains](figures/nvcl_mineral_domains.png)
+
+Four domains emerge with no labels — white-mica (phyllic), kaolin
+(argillic/weathering), carbonate, and smectite+sulphate (evaporitic) — and
+persist coherently downhole. One methodological note worth its own line: unlike
+geochemistry, mineral proportions have *structural* zeros (a mineral genuinely
+absent), so the CLR transform is deliberately **not** applied here. Walkthrough:
+[`notebooks/02_nvcl_clustering.ipynb`](notebooks/02_nvcl_clustering.ipynb); logic
+in [`src/lithoclass/nvcl.py`](src/lithoclass/nvcl.py). This is exploratory
+pattern discovery, not a validated product.
+
 ## Reproducing
 
 ```bash
@@ -216,5 +237,10 @@ The committed `clean.parquet` makes the above run without the raw download. To
 rebuild from source, place the SARIG `sarig_rs_chem_exp.csv`,
 `sarig_dh_litho_exp.csv` and `sarig_dh_details_exp.csv` in `data/raw/` and run
 `python -m lithoclass.extract` then `python -m lithoclass.make_clean`.
+
+For the stretch: `python -c "from lithoclass.nvcl import make_figure;
+make_figure()"` regenerates the mineral-domains figure from the committed NVCL
+cache; `python -m lithoclass.nvcl` re-fetches the mineralogy live from the NVCL
+SA node.
 
 *Data © Geological Survey of South Australia, CC-BY 4.0.*

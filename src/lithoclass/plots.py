@@ -129,3 +129,43 @@ def add_class_legend(fig, colours: dict[str, tuple]) -> None:
     """Shared class legend for the strip-log figure."""
     handles = [Patch(facecolor=c, label=_short(k)) for k, c in colours.items()]
     fig.legend(handles=handles, loc="center right", frameon=False, fontsize=9)
+
+
+# --- Phase 6 (stretch): NVCL mineral-domain figures ---------------------------
+
+
+def plot_domain_strip(
+    depths: Sequence[float], labels: Sequence[int], ax: Axes, hole_name: str,
+    bin_m: float = 1.0,
+) -> None:
+    """Downhole strip coloured by unsupervised mineral-domain cluster."""
+    palette = mpl.colormaps["tab10"].colors
+    for depth, lab in zip(depths, labels, strict=True):
+        ax.add_patch(
+            mpl.patches.Rectangle((0, depth), 1.0, bin_m,
+                                  facecolor=palette[int(lab) % len(palette)],
+                                  edgecolor="none")
+        )
+    ax.set_xlim(0, 1.0)
+    ax.set_ylim(max(depths) + bin_m, min(depths))
+    ax.set_xticks([])
+    ax.set_ylabel("Depth (m)")
+    ax.set_title(hole_name)
+    ax.spines["bottom"].set_visible(False)
+
+
+def plot_cluster_profiles(profiles: pd.DataFrame, ax: Axes) -> None:
+    """Heatmap of mean mineral proportion per cluster — makes domains readable."""
+    palette = mpl.colormaps["tab10"].colors
+    im = ax.imshow(profiles.to_numpy(), cmap="magma", aspect="auto", vmin=0, vmax=1)
+    ax.set_xticks(range(len(profiles.columns)), profiles.columns,
+                  rotation=45, ha="right", fontsize=8)
+    ax.set_yticks(
+        range(len(profiles.index)),
+        [f"Domain {i}" for i in profiles.index],
+    )
+    # colour the y tick labels to match the strip clusters
+    for tick, idx in zip(ax.get_yticklabels(), profiles.index, strict=True):
+        tick.set_color(palette[int(idx) % len(palette)])
+    ax.set_title("Mean mineral proportion per domain")
+    ax.figure.colorbar(im, ax=ax, fraction=0.046, pad=0.04, label="proportion")
